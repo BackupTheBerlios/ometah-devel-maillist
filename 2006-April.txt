@@ -1,0 +1,1861 @@
+From nojhan at berlios.de  Fri Apr  7 18:53:13 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 18:53:13 +0200
+Subject: [Ometah-devel] CVS update: ometah/communication/network
+Message-ID: <443698F9.Mail6B91581SU@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 16:53
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication/network
+In directory sheep:/tmp/cvs-serv8099/network
+
+Log Message:
+Directory /cvsroot/ometah/ometah/communication/network added to the repository
+
+[input file was '-']
+
+
+From nojhan at berlios.de  Fri Apr  7 18:55:58 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 18:55:58 +0200
+Subject: [Ometah-devel] CVS update: ometah/communication/network
+Message-ID: <4436999E.Mail7J11ZXTIN@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 16:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication/network
+In directory sheep:/tmp/cvs-serv9711/communication/network
+
+Added Files:
+	Exception_Socket.hpp SocketProtocol.hpp 
+	itsCommunicationClient_socket.cpp 
+	itsCommunicationClient_socket.hpp 
+	itsCommunicationServer_socket.cpp 
+	itsCommunicationServer_socket.hpp itsSocket.cpp itsSocket.hpp 
+	itsSocketClient.cpp itsSocketClient.hpp itsSocketServer.cpp 
+	itsSocketServer.hpp 
+Log Message:
+* network protocol over unix sockets
+===================================================================
+File: Exception_Socket.hpp	Status: Up-to-date
+
+   Working revision:	1.1	Fri Apr  7 16:55:56 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/Exception_Socket.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file SocketProtocol.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/SocketProtocol.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsCommunicationClient_socket.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsCommunicationClient_socket.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsCommunicationClient_socket.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsCommunicationClient_socket.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsCommunicationServer_socket.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsCommunicationServer_socket.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsCommunicationServer_socket.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsCommunicationServer_socket.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSocket.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsSocket.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSocket.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsSocket.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSocketClient.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsSocketClient.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSocketClient.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsSocketClient.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSocketServer.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsSocketServer.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSocketServer.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 16:55:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/network/itsSocketServer.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Apr  7 18:55:58 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 18:55:58 +0200
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <4436999E.Mail7JP1NOHFD@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 16:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv9711/interface
+
+Modified Files:
+	ometah.cpp ometah.hpp 
+Log Message:
+* network protocol over unix sockets
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.23	Fri Apr  7 16:55:58 2006
+   Repository revision:	1.23	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.20)
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.hpp		Status: Needs Checkout
+
+   Working revision:	1.17	Fri Apr  7 16:55:58 2006
+   Repository revision:	1.17	/cvsroot/ometah/ometah/interface/ometah.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.15)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Apr  7 18:55:58 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 18:55:58 +0200
+Subject: [Ometah-devel] CVS update: ometah/communication
+Message-ID: <4436999E.Mail7JH117F7P@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 16:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication
+In directory sheep:/tmp/cvs-serv9711/communication
+
+Modified Files:
+	itsCommunicationServer.hpp itsCommunicationServer_embedded.cpp 
+	itsCommunicationServer_embedded.hpp 
+Log Message:
+* network protocol over unix sockets
+===================================================================
+File: no file itsCommunicationServer.hpp		Status: Needs Checkout
+
+   Working revision:	1.5	Fri Apr  7 16:55:58 2006
+   Repository revision:	1.5	/cvsroot/ometah/ometah/communication/itsCommunicationServer.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.4)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationServer_embedded.cpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Apr  7 16:55:58 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometah/communication/itsCommunicationServer_embedded.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.2)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationServer_embedded.hpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Apr  7 16:55:58 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometah/communication/itsCommunicationServer_embedded.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.2)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Apr  7 18:55:58 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 18:55:58 +0200
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <4436999E.Mail7K911317Q@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 16:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv9711
+
+Modified Files:
+	CHANGELOG SConstruct ometah.prj ometah.pws 
+Log Message:
+* network protocol over unix sockets
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.4	Fri Apr  7 16:55:56 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometah/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.32	Fri Apr  7 16:55:58 2006
+   Repository revision:	1.32	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.27)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.16	Fri Apr  7 16:55:58 2006
+   Repository revision:	1.16	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.15)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.20	Fri Apr  7 16:55:56 2006
+   Repository revision:	1.20	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.18)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Apr  7 19:00:15 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 19:00:15 +0200
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <44369A9F.Mail8MG112RJC@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 17:00
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv11074
+
+Modified Files:
+	CHANGELOG demo_simple.py ometahstats.py 
+Log Message:
+* latex template for reports
+* change the output format from image to report
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.9	Fri Apr  7 17:00:06 2006
+   Repository revision:	1.9	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.12	Fri Apr  7 17:00:15 2006
+   Repository revision:	1.12	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahstats.py   	Status: Up-to-date
+
+   Working revision:	1.72	Fri Apr  7 17:00:07 2006
+   Repository revision:	1.72	/cvsroot/ometah/ometahlab/ometahstats.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Apr  7 19:00:15 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 19:00:15 +0200
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <44369A9F.Mail8M81LXIB2@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 17:00
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv11074/plugins
+
+Added Files:
+	report_tex.tmpl 
+Removed Files:
+	end_optimum_bestworst.py 
+Log Message:
+* latex template for reports
+* change the output format from image to report
+===================================================================
+File: report_tex.tmpl  	Status: Up-to-date
+
+   Working revision:	1.1	Fri Apr  7 17:00:06 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/report_tex.tmpl,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file end_optimum_bestworst.py		Status: Up-to-date
+
+   Working revision:	No entry for end_optimum_bestworst.py
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/Attic/end_optimum_bestworst.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Apr  7 19:58:29 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 19:58:29 +0200
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <4436A845.Mail4FH11R4T9@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 17:58
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv5485
+
+Modified Files:
+	ometahlab_gui.py 
+Removed Files:
+	demo_simple.py 
+Log Message:
+* output type is now html by default
+
+===================================================================
+File: no file ometahlab_gui.py		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Apr  7 17:58:27 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/ometahlab_gui.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file demo_simple.py		Status: Up-to-date
+
+   Working revision:	No entry for demo_simple.py
+   Repository revision:	1.13	/cvsroot/ometah/ometahlab/Attic/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Apr  7 20:03:10 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 20:03:10 +0200
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <4436A95E.Mail67K11YIWN@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 18:03
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv7690
+
+Removed Files:
+	demo.py 
+Log Message:
+* some more demo files in the demo directory
+
+===================================================================
+File: no file demo.py		Status: Up-to-date
+
+   Working revision:	No entry for demo.py
+   Repository revision:	1.46	/cvsroot/ometah/ometahlab/Attic/demo.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Apr  7 20:03:11 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 07 Apr 2006 20:03:11 +0200
+Subject: [Ometah-devel] CVS update: ometahlab/demos
+Message-ID: <4436A95F.Mail67P1UEWUI@sheep.berlios.de>
+
+Date:	Friday April 7, 2006 @ 18:03
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/demos
+In directory sheep:/tmp/cvs-serv7690/demos
+
+Added Files:
+	README compare_1-metaheuristic_n-problems.py 
+	compare_1-problem_n-metaheuristics.py demo_simple.py 
+Log Message:
+* some more demo files in the demo directory
+
+===================================================================
+File: README           	Status: Up-to-date
+
+   Working revision:	1.1	Fri Apr  7 18:03:09 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/demos/README,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: compare_1-metaheuristic_n-problems.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Apr  7 18:03:09 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/demos/compare_1-metaheuristic_n-problems.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: compare_1-problem_n-metaheuristics.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Apr  7 18:03:09 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/demos/compare_1-problem_n-metaheuristics.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Apr  7 18:03:11 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/demos/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From admin at berlios.de  Sun Apr  9 21:00:34 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 9 Apr 2006 21:00:34 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2898] Network protocol over unix sockets
+Message-ID: <200604091900.k39J0YVs019084@unicorn.berlios.de>
+
+Task #2898 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Network protocol over unix sockets
+Priority: 3
+Percent Complete: 75%
+Status: Open
+Authority  : nojhan
+Assigned to: nojhan
+
+Description: Almost done, but it lacks the informations functions.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2898&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Sun Apr  9 21:02:52 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 9 Apr 2006 21:02:52 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2899] Passing arguments to sub-classes over abstract factory
+Message-ID: <200604091902.k39J2qR2019157@unicorn.berlios.de>
+
+Task #2899 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Passing arguments to sub-classes over abstract factory
+Priority: 7
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: We must have a generic method for passing arguments in sub-classes despite the abstract factory. Perhaps using the argument parser...
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2899&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Sun Apr  9 21:04:03 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 9 Apr 2006 21:04:03 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2900] Use exceptions
+Message-ID: <200604091904.k39J431U019184@unicorn.berlios.de>
+
+Task #2900 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Use exceptions
+Priority: 8
+Percent Complete: 5%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: We must have a nice error handling with an exception classes tree.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2900&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Sun Apr  9 21:07:10 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 9 Apr 2006 21:07:10 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2901] Base object for set management
+Message-ID: <200604091907.k39J7AjA019277@unicorn.berlios.de>
+
+Task #2901 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Base object for set management
+Priority: 4
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Every super classes that can be used in an abstract factory (problems, metaheuristics, communication) shared the same simple code dealing that is used for sets management (key, name, etc.). It should be placed in a base class.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2901&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Sun Apr  9 21:08:54 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 9 Apr 2006 21:08:54 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2902] Adapt plugins for textual output of tables
+Message-ID: <200604091908.k39J8sQE019331@unicorn.berlios.de>
+
+Task #2902 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetahLab
+Summary: Adapt plugins for textual output of tables
+Priority: 8
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: A plugin should be able to simply output a table. For example in a csv file.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2902&group_id=3955&group_project_id=986
+
+
+From admin at berlios.de  Sun Apr  9 21:10:45 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 9 Apr 2006 21:10:45 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2903] Put the number of runs in the results directories names
+Message-ID: <200604091910.k39JAjhR019367@unicorn.berlios.de>
+
+Task #2903 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetahLab
+Summary: Put the number of runs in the results directories names
+Priority: 8
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: The number of runs should be placed in the name of the results. Perhaps we should delete the random seed too.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2903&group_id=3955&group_project_id=986
+
+
+From admin at berlios.de  Sun Apr  9 21:12:30 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 9 Apr 2006 21:12:30 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2904] SWIG binding
+Message-ID: <200604091912.k39JCUYq019406@unicorn.berlios.de>
+
+Task #2904 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: SWIG binding
+Priority: 7
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: We should permit to embbed oMetah in some other langages, like python. Using SWIG seems to be the best idea.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2904&group_id=3955&group_project_id=987
+
+
+From nojhan at berlios.de  Mon Apr 10 22:18:01 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 10 Apr 2006 22:18:01 +0200
+Subject: [Ometah-devel] CVS update: ometah/communication/languages
+Message-ID: <443ABD79.MailMO111MY0F@sheep.berlios.de>
+
+Date:	Monday April 10, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication/languages
+In directory sheep:/tmp/cvs-serv29317/languages
+
+Log Message:
+Directory /cvsroot/ometah/ometah/communication/languages added to the repository
+
+[input file was '-']
+
+
+From nojhan at berlios.de  Mon Apr 10 22:55:24 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 10 Apr 2006 22:55:24 +0200
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <443AC63C.Mail7JK1QD3F6@sheep.berlios.de>
+
+Date:	Monday April 10, 2006 @ 20:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv9753
+
+Added Files:
+	problem_for_ometah.py 
+Log Message:
+* communication protocol for calling python functions
+===================================================================
+File: problem_for_ometah.py	Status: Up-to-date
+
+   Working revision:	1.1	Mon Apr 10 20:55:24 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/problem_for_ometah.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Apr 10 22:56:52 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 10 Apr 2006 22:56:52 +0200
+Subject: [Ometah-devel] CVS update: ometah/communication/network
+Message-ID: <443AC694.Mail7MA1M8E0C@sheep.berlios.de>
+
+Date:	Monday April 10, 2006 @ 20:56
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication/network
+In directory sheep:/tmp/cvs-serv9844/communication/network
+
+Modified Files:
+	Exception_Socket.hpp itsCommunicationClient_socket.cpp 
+	itsSocketClient.cpp itsSocketServer.cpp 
+Log Message:
+* communication protocol for calling python functions
+* better (true) exception management
+===================================================================
+File: no file Exception_Socket.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/network/Exception_Socket.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsCommunicationClient_socket.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/network/itsCommunicationClient_socket.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSocketClient.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/network/itsSocketClient.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSocketServer.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/network/itsSocketServer.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Apr 10 22:56:52 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 10 Apr 2006 22:56:52 +0200
+Subject: [Ometah-devel] CVS update: ometah/communication/languages
+Message-ID: <443AC694.Mail7M318FMXW@sheep.berlios.de>
+
+Date:	Monday April 10, 2006 @ 20:56
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication/languages
+In directory sheep:/tmp/cvs-serv9844/communication/languages
+
+Added Files:
+	itsCommunicationClient_python.cpp 
+	itsCommunicationClient_python.hpp 
+Log Message:
+* communication protocol for calling python functions
+* better (true) exception management
+===================================================================
+File: no file itsCommunicationClient_python.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/languages/itsCommunicationClient_python.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsCommunicationClient_python.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/communication/languages/itsCommunicationClient_python.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Apr 10 22:56:52 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 10 Apr 2006 22:56:52 +0200
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <443AC694.Mail7MN1KUI1B@sheep.berlios.de>
+
+Date:	Monday April 10, 2006 @ 20:56
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv9844/interface
+
+Modified Files:
+	ometah.cpp ometah.hpp 
+Log Message:
+* communication protocol for calling python functions
+* better (true) exception management
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.24	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.24	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.20)
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.hpp		Status: Needs Checkout
+
+   Working revision:	1.18	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.18	/cvsroot/ometah/ometah/interface/ometah.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.15)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Mon Apr 10 22:56:53 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 10 Apr 2006 22:56:53 +0200
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <443AC695.Mail7MU11Y0QO@sheep.berlios.de>
+
+Date:	Monday April 10, 2006 @ 20:56
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv9844
+
+Modified Files:
+	SConstruct ometah.prj ometah.pws 
+Log Message:
+* communication protocol for calling python functions
+* better (true) exception management
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.33	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.33	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.27)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.17	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.17	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.15)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.21	Mon Apr 10 20:56:52 2006
+   Repository revision:	1.21	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.18)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Mon Apr 10 22:58:00 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 10 Apr 2006 22:58:00 +0200
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <443AC6D8.Mail7PS1V1C1W@sheep.berlios.de>
+
+Date:	Monday April 10, 2006 @ 20:58
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv9977
+
+Added Files:
+	Exception_oMetah.cpp Exception_oMetah.hpp 
+Log Message:
+* better exception management
+
+===================================================================
+File: no file Exception_oMetah.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Mon Apr 10 20:57:58 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/common/Exception_oMetah.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file Exception_oMetah.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Mon Apr 10 20:57:58 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/common/Exception_oMetah.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From admin at berlios.de  Tue Apr 11 10:03:38 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Tue, 11 Apr 2006 10:03:38 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2905] Use CSV output cache instead of serialization
+Message-ID: <200604110803.k3B83cmp028285@unicorn.berlios.de>
+
+Task #2905 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetahLab
+Summary: Use CSV output cache instead of serialization
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: This is particulary necessary when we have a huge amount of points
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2905&group_id=3955&group_project_id=986
+
+
+From nojhan at berlios.de  Tue Apr 11 12:14:00 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 11 Apr 2006 12:14:00 +0200
+Subject: [Ometah-devel] CVS update: ometah/problem
+Message-ID: <443B8168.MailBVD1196IA@sheep.berlios.de>
+
+Date:	Tuesday April 11, 2006 @ 10:14
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem
+In directory sheep:/tmp/cvs-serv15277/problem
+
+Modified Files:
+	itsProblem.cpp itsProblem.hpp 
+Log Message:
+* true exceptions
+
+===================================================================
+File: no file itsProblem.cpp		Status: Needs Checkout
+
+   Working revision:	1.11	Tue Apr 11 10:14:00 2006
+   Repository revision:	1.11	/cvsroot/ometah/ometah/problem/itsProblem.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.10)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsProblem.hpp		Status: Needs Checkout
+
+   Working revision:	1.8	Tue Apr 11 10:14:00 2006
+   Repository revision:	1.8	/cvsroot/ometah/ometah/problem/itsProblem.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.7)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Apr 11 12:14:00 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 11 Apr 2006 12:14:00 +0200
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <443B8168.MailBV611QCXO@sheep.berlios.de>
+
+Date:	Tuesday April 11, 2006 @ 10:14
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv15277/interface
+
+Modified Files:
+	itsArgument.cpp itsArgument.hpp ometah.cpp 
+Log Message:
+* true exceptions
+
+===================================================================
+File: no file itsArgument.cpp		Status: Needs Checkout
+
+   Working revision:	1.16	Tue Apr 11 10:14:00 2006
+   Repository revision:	1.16	/cvsroot/ometah/ometah/interface/itsArgument.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.14)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsArgument.hpp		Status: Needs Checkout
+
+   Working revision:	1.11	Tue Apr 11 10:14:00 2006
+   Repository revision:	1.11	/cvsroot/ometah/ometah/interface/itsArgument.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.10)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.25	Tue Apr 11 10:14:00 2006
+   Repository revision:	1.25	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.20)
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Apr 11 12:14:00 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 11 Apr 2006 12:14:00 +0200
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <443B8168.MailBUY115WT6@sheep.berlios.de>
+
+Date:	Tuesday April 11, 2006 @ 10:13
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv15277/common
+
+Modified Files:
+	Exception_oMetah.hpp itsPoint.cpp itsPoint.hpp matrix.hpp 
+Log Message:
+* true exceptions
+
+===================================================================
+File: no file Exception_oMetah.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Tue Apr 11 10:13:57 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/Exception_oMetah.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsPoint.cpp		Status: Needs Checkout
+
+   Working revision:	1.7	Tue Apr 11 10:13:57 2006
+   Repository revision:	1.7	/cvsroot/ometah/ometah/common/itsPoint.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.5)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsPoint.hpp		Status: Needs Checkout
+
+   Working revision:	1.6	Tue Apr 11 10:13:57 2006
+   Repository revision:	1.6	/cvsroot/ometah/ometah/common/itsPoint.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.4)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file matrix.hpp		Status: Needs Checkout
+
+   Working revision:	1.10	Tue Apr 11 10:13:57 2006
+   Repository revision:	1.10	/cvsroot/ometah/ometah/common/matrix.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.9)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Apr 11 12:42:36 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 11 Apr 2006 12:42:36 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/antcolony
+Message-ID: <443B881C.MailGV31QGE6H@sheep.berlios.de>
+
+Date:	Tuesday April 11, 2006 @ 10:42
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/antcolony
+In directory sheep:/tmp/cvs-serv21823/metaheuristic/antcolony
+
+Modified Files:
+	itsHybridContinuousInteractingAntColony.cpp 
+	itsHybridContinuousInteractingAntColony.hpp 
+Log Message:
+* true exceptions
+
+===================================================================
+File: no file itsHybridContinuousInteractingAntColony.cpp		Status: Needs Checkout
+
+   Working revision:	1.3	Tue Apr 11 10:42:36 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/antcolony/itsHybridContinuousInteractingAntColony.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.2)
+
+===================================================================
+File: no file itsHybridContinuousInteractingAntColony.hpp		Status: Needs Checkout
+
+   Working revision:	1.3	Tue Apr 11 10:42:36 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/antcolony/itsHybridContinuousInteractingAntColony.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.2)
+
+
+
+From nojhan at berlios.de  Tue Apr 11 12:42:35 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 11 Apr 2006 12:42:35 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <443B881B.MailGUX1BO8LV@sheep.berlios.de>
+
+Date:	Tuesday April 11, 2006 @ 10:42
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv21823/metaheuristic
+
+Modified Files:
+	itsMetaheuristic.cpp itsMetaheuristic.hpp 
+Log Message:
+* true exceptions
+
+===================================================================
+File: no file itsMetaheuristic.cpp		Status: Needs Checkout
+
+   Working revision:	1.25	Tue Apr 11 10:42:33 2006
+   Repository revision:	1.25	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.23)
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsMetaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.20	Tue Apr 11 10:42:33 2006
+   Repository revision:	1.20	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.17)
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Apr 11 12:42:37 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 11 Apr 2006 12:42:37 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/estimation
+Message-ID: <443B881D.MailGV91YWHZJ@sheep.berlios.de>
+
+Date:	Tuesday April 11, 2006 @ 10:42
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/estimation
+In directory sheep:/tmp/cvs-serv21823/metaheuristic/estimation
+
+Modified Files:
+	itsEstimationOfDistribution.cpp 
+	itsEstimationOfDistribution.hpp 
+Log Message:
+* true exceptions
+
+===================================================================
+File: no file itsEstimationOfDistribution.cpp		Status: Needs Checkout
+
+   Working revision:	1.9	Tue Apr 11 10:42:36 2006
+   Repository revision:	1.9	/cvsroot/ometah/ometah/metaheuristic/estimation/itsEstimationOfDistribution.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.7)
+
+===================================================================
+File: no file itsEstimationOfDistribution.hpp		Status: Needs Checkout
+
+   Working revision:	1.6	Tue Apr 11 10:42:36 2006
+   Repository revision:	1.6	/cvsroot/ometah/ometah/metaheuristic/estimation/itsEstimationOfDistribution.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.4)
+
+
+
+From admin at berlios.de  Tue Apr 11 12:37:27 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Tue, 11 Apr 2006 12:37:27 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2900] Use exceptions
+Message-ID: <200604111037.k3BAbRsU002557@unicorn.berlios.de>
+
+Task #2900 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Use exceptions
+Priority: 8
+Percent Complete: 95%
+Status: Open
+Authority  : nojhan
+Assigned to: nojhan
+
+Description: We must have a nice error handling with an exception classes tree.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2900&group_id=3955&group_project_id=987
+
+
+From nojhan at berlios.de  Tue Apr 11 13:48:48 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 11 Apr 2006 13:48:48 +0200
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <443B97A0.MailGMO116TH4@sheep.berlios.de>
+
+Date:	Tuesday April 11, 2006 @ 11:48
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv21312
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+* news
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.5	Tue Apr 11 11:48:38 2006
+   Repository revision:	1.5	/cvsroot/ometah/ometah/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Tue Apr 11 14:31:03 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 11 Apr 2006 14:31:03 +0200
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <443BA187.Mail71O11K9AK@sheep.berlios.de>
+
+Date:	Tuesday April 11, 2006 @ 12:31
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv8984
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+* version 0.2.4
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.10	Tue Apr 11 12:31:01 2006
+   Repository revision:	1.10	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From admin at berlios.de  Tue Apr 11 14:50:22 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Tue, 11 Apr 2006 14:50:22 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2906] Add the adaptive PSO
+Message-ID: <200604111250.k3BCoMIX019494@unicorn.berlios.de>
+
+Task #2906 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Add the adaptive PSO
+Priority: 6
+Percent Complete: 50%
+Status: Open
+Authority  : nojhan
+Assigned to: cooren
+
+Description: From the code of M. Clerc.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2906&group_id=3955&group_project_id=987
+
+
+From nojhan at berlios.de  Wed Apr 12 16:45:56 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 12 Apr 2006 16:45:56 +0200
+Subject: [Ometah-devel] CVS update: ometah/examples
+Message-ID: <443D12A4.Mail1P61F9NB7@sheep.berlios.de>
+
+Date:	Wednesday April 12, 2006 @ 14:45
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/examples
+In directory sheep:/tmp/cvs-serv1864/examples
+
+Modified Files:
+	example_problem.cpp 
+Log Message:
+* version management in the SConstruct file
+* more precise example for problems
+* new method for setting a single value in a point
+
+===================================================================
+File: no file example_problem.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Wed Apr 12 14:45:56 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/examples/example_problem.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.1)
+
+
+
+From nojhan at berlios.de  Wed Apr 12 16:45:56 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 12 Apr 2006 16:45:56 +0200
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <443D12A4.Mail1P01YKVHD@sheep.berlios.de>
+
+Date:	Wednesday April 12, 2006 @ 14:45
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv1864/common
+
+Modified Files:
+	itsPoint.cpp itsPoint.hpp 
+Log Message:
+* version management in the SConstruct file
+* more precise example for problems
+* new method for setting a single value in a point
+
+===================================================================
+File: no file itsPoint.cpp		Status: Needs Checkout
+
+   Working revision:	1.8	Wed Apr 12 14:45:56 2006
+   Repository revision:	1.8	/cvsroot/ometah/ometah/common/itsPoint.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.5)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsPoint.hpp		Status: Needs Checkout
+
+   Working revision:	1.7	Wed Apr 12 14:45:56 2006
+   Repository revision:	1.7	/cvsroot/ometah/ometah/common/itsPoint.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.4)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Apr 12 16:45:56 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 12 Apr 2006 16:45:56 +0200
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <443D12A4.Mail1OT11VD39@sheep.berlios.de>
+
+Date:	Wednesday April 12, 2006 @ 14:45
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv1864
+
+Modified Files:
+	SConstruct ometah.pws 
+Log Message:
+* version management in the SConstruct file
+* more precise example for problems
+* new method for setting a single value in a point
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.34	Wed Apr 12 14:45:54 2006
+   Repository revision:	1.34	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.27)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.22	Wed Apr 12 14:45:53 2006
+   Repository revision:	1.22	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.18)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Apr 12 16:45:56 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 12 Apr 2006 16:45:56 +0200
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <443D12A4.Mail1PC11DIJU@sheep.berlios.de>
+
+Date:	Wednesday April 12, 2006 @ 14:45
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv1864/interface
+
+Modified Files:
+	ometah.hpp 
+Log Message:
+* version management in the SConstruct file
+* more precise example for problems
+* new method for setting a single value in a point
+
+===================================================================
+File: no file ometah.hpp		Status: Needs Checkout
+
+   Working revision:	1.19	Wed Apr 12 14:45:56 2006
+   Repository revision:	1.19	/cvsroot/ometah/ometah/interface/ometah.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.15)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From admin at berlios.de  Thu Apr 13 09:55:36 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Thu, 13 Apr 2006 09:55:36 +0200 (CEST)
+Subject: [Ometah-devel] [Bug #7133] import path for demo files of ometahlab
+Message-ID: <200604130755.k3D7taT4015628@unicorn.berlios.de>
+
+Bug #7133, was updated on 2006-Apr-13 09:55
+Here is a current snapshot of the bug.
+
+Project: Open Metaheuristic
+Category: Experiment
+Status: Open
+Resolution: None
+Bug Group: bug report
+Priority: 4
+Submitted by: nojhan
+Assigned to : none
+Summary: import path for demo files of ometahlab
+
+Details: The import statement of the demo files is broken, since the modules are located in the ../ directory.
+
+For detailed info, follow this link:
+http://developer.berlios.de/bugs/?func=detailbug&bug_id=7133&group_id=3955
+
+
+From admin at berlios.de  Thu Apr 13 10:29:00 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Thu, 13 Apr 2006 10:29:00 +0200 (CEST)
+Subject: [Ometah-devel] [Bug #7134] Test if the asked plugins argument is a list
+Message-ID: <200604130829.k3D8T0CT017672@unicorn.berlios.de>
+
+Bug #7134, was updated on 2006-Apr-13 10:28
+Here is a current snapshot of the bug.
+
+Project: Open Metaheuristic
+Category: Experiment
+Status: Open
+Resolution: None
+Bug Group: feature request
+Priority: 6
+Submitted by: nojhan
+Assigned to : none
+Summary: Test if the asked plugins argument is a list
+
+Details: In ometahstats.process
+
+For detailed info, follow this link:
+http://developer.berlios.de/bugs/?func=detailbug&bug_id=7134&group_id=3955
+
+
+From admin at berlios.de  Thu Apr 13 10:30:18 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Thu, 13 Apr 2006 10:30:18 +0200 (CEST)
+Subject: [Ometah-devel] [Bug #7135] Put a message when ometahlab is cleanly stopping
+Message-ID: <200604130830.k3D8UIEL017815@unicorn.berlios.de>
+
+Bug #7135, was updated on 2006-Apr-13 10:30
+Here is a current snapshot of the bug.
+
+Project: Open Metaheuristic
+Category: Experiment
+Status: Open
+Resolution: None
+Bug Group: feature request
+Priority: 7
+Submitted by: nojhan
+Assigned to : none
+Summary: Put a message when ometahlab is cleanly stopping
+
+Details: Sometimes Rpy ends on an exception, is should be usefull to indicate that ometahlab has stopping without a problem.
+
+For detailed info, follow this link:
+http://developer.berlios.de/bugs/?func=detailbug&bug_id=7135&group_id=3955
+
+
+From admin at berlios.de  Thu Apr 13 10:31:38 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Thu, 13 Apr 2006 10:31:38 +0200 (CEST)
+Subject: [Ometah-devel] [Bug #6732] Problem for demo_simple.py if dimension >2
+Message-ID: <200604130831.k3D8VcVD017860@unicorn.berlios.de>
+
+Bug #6732, was updated on 2006-Mar-09 10:30
+Here is a current snapshot of the bug.
+
+Project: Open Metaheuristic
+Category: None
+Status: Open
+Resolution: None
+Bug Group: None
+Priority: 5
+Submitted by: cooren
+Assigned to : none
+Summary: Problem for demo_simple.py if dimension >2
+
+Details: I try to execute demo_simple.py with a dimension >2 for problems. So, I have just modified the original file by replacing:
+
+u.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 2 -m CEDA')
+by
+u.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 3 -m CEDA')
+
+and 
+
+v.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 2 -m RA')
+by
+v.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 3 -m RA')
+
+The program is executing well until "Non-parametric test on optima error over all tests:  1.90734863281e-06"
+At this moment, the program doesn't stop but it runs without end. Nothing is written after "Non parametric..."
+I've tried for other dimensions and the problem is the same.
+
+Follow-Ups:
+
+Date: 2006-Apr-13 10:31
+By: nojhan
+
+Comment:
+The problems comes from the itsRosenbrock function, that seems to be not cleanly implemented. It tries to access the last+1 item of the point solution vector.
+-------------------------------------------------------
+
+For detailed info, follow this link:
+http://developer.berlios.de/bugs/?func=detailbug&bug_id=6732&group_id=3955
+
+
+From admin at berlios.de  Fri Apr 14 15:53:58 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 14 Apr 2006 15:53:58 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2915] Better management of headers
+Message-ID: <200604141353.k3EDrwaK012485@unicorn.berlios.de>
+
+Task #2915 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Better management of headers
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Headers should be included via absolute path rather than relative one. Moreover, we must use only few headers, one per module (problem, metaheuristic, communication ?).
+
+For example, we must do :
+#include &lt;ometah/metaheuristic.h&gt;
+Rather than
+#include &quot;../itsMetaheuristic.hpp&quot;
+and so on
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2915&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Sun Apr 23 22:35:32 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 23 Apr 2006 22:35:32 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2920] Make good use of the STL
+Message-ID: <200604232035.k3NKZWPT007911@unicorn.berlios.de>
+
+Task #2920 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Make good use of the STL
+Priority: 2
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: * use standard map/set
+* inherit point from vectors
+* inherit argument parser from map
+* use iterators
+* use streams fpr output instead of loop
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2920&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Wed Apr 26 09:51:45 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Wed, 26 Apr 2006 09:51:45 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2923] Use const methods for accessors
+Message-ID: <200604260751.k3Q7pjYA018399@unicorn.berlios.de>
+
+Task #2923 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Use const methods for accessors
+Priority: 2
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: declare :
+void getAtt() const {return this-&gt;att;};
+instead of :
+void getAtt() {reutrn this-&gt;att;};
+
+in every classes
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2923&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Wed Apr 26 09:55:11 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Wed, 26 Apr 2006 09:55:11 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2924] operators for itsPoint
+Message-ID: <200604260755.k3Q7tBWR018461@unicorn.berlios.de>
+
+Task #2924 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: operators for itsPoint
+Priority: 2
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: make operators for the itsPoint class :
+* itsPoint = vector&lt;double&gt;
+* itsPoint &lt; itsPoint (&gt;, ==, etc.)
+* itsPoint &lt; double (&gt;, ==, etc.)
+* double itsPoint() (value)
+* double itsPoint[int] (solution)
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2924&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Wed Apr 26 09:56:08 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Wed, 26 Apr 2006 09:56:08 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2925] check for new/delete
+Message-ID: <200604260756.k3Q7u8Dr018500@unicorn.berlios.de>
+
+Task #2925 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: check for new/delete 
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: check if all classes using the new operator are also using delete
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2925&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Wed Apr 26 10:01:15 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Wed, 26 Apr 2006 10:01:15 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2097] Add network communication protocols
+Message-ID: <200604260801.k3Q81Faf018735@unicorn.berlios.de>
+
+Task #2097 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Add network communication protocols
+Priority: 3
+Percent Complete: 25%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: simple sockets,
+distributed servers,
+SOAP
+
+Follow-Ups:
+
+-------------------------------------------------------
+Date: 2006-Apr-26 10:01
+By: nojhan
+
+Comment:
+almost done for Unix sockets
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2097&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Sun Apr 30 18:57:11 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Sun, 30 Apr 2006 18:57:11 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2940] Suppress multi-objective stuff
+Message-ID: <200604301657.k3UGvBTd023128@unicorn.berlios.de>
+
+Task #2940 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Suppress multi-objective stuff
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: in itsPoint class, must replace the vector of double for values with a singe double. PISA is already doing a great job, and we don't have sufficient dev to handle all problem types.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2940&group_id=3955&group_project_id=987
+
+

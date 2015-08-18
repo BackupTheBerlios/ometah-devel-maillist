@@ -1,0 +1,102 @@
+From nojhan at mail.berlios.de  Fri Jul 14 22:55:21 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Fri, 14 Jul 2006 22:55:21 +0200
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <44B804B9.MailKPX19JS09@sheep.berlios.de>
+
+
+Date:	Friday July 14, 2006 @ 20:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv26807/common
+
+Modified Files:
+	string.hpp 
+Log Message:
+* obsolete print function replaced with a single version
+
+===================================================================
+File: no file string.hpp		Status: Needs Checkout
+
+   Working revision:	1.9	Fri Jul 14 20:55:20 2006
+   Repository revision:	1.9	/cvsroot/ometah/ometah/common/string.hpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.8)
+	V_0_2_4                  	(revision: 1.6)
+	V_0_2_2                  	(revision: 1.6)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at mail.berlios.de  Fri Jul 14 22:55:22 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Fri, 14 Jul 2006 22:55:22 +0200
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <44B804BA.MailKQ211SWU9@sheep.berlios.de>
+
+
+Date:	Friday July 14, 2006 @ 20:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv26807/interface
+
+Modified Files:
+	ometah.cpp 
+Log Message:
+* obsolete print function replaced with a single version
+
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.41	Fri Jul 14 20:55:22 2006
+   Repository revision:	1.41	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.36)
+	V_0_2_4                  	(revision: 1.25)
+	V_0_2_2                  	(revision: 1.20)
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at mail.berlios.de  Fri Jul 14 22:55:22 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Fri, 14 Jul 2006 22:55:22 +0200
+Subject: [Ometah-devel] CVS update: ometah/problem
+Message-ID: <44B804BA.MailKQ9114UPP@sheep.berlios.de>
+
+
+Date:	Friday July 14, 2006 @ 20:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem
+In directory sheep:/tmp/cvs-serv26807/problem
+
+Modified Files:
+	itsProblem.cpp 
+Log Message:
+* obsolete print function replaced with a single version
+
+===================================================================
+File: no file itsProblem.cpp		Status: Needs Checkout
+
+   Working revision:	1.18	Fri Jul 14 20:55:22 2006
+   Repository revision:	1.18	/cvsroot/ometah/ometah/problem/itsProblem.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.16)
+	V_0_2_4                  	(revision: 1.11)
+	V_0_2_2                  	(revision: 1.10)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+

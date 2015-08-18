@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Ometah-devel] [Bug #7657] probl&#232;me pour une dimension plus que 1 (out of bounds)
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/ometah-devel/2006-May/index.html" >
+   <LINK REL="made" HREF="mailto:ometah-devel%40lists.berlios.de?Subject=Re%3A%20%5BOmetah-devel%5D%20%5BBug%20%237657%5D%20probl%E8me%20pour%20une%20dimension%20plus%20que%201%20%28out%20of%20bounds%29&In-Reply-To=%3C200605301536.k4UFaXEB028975%40unicorn.berlios.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000638.html">
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Ometah-devel] [Bug #7657] probl&#232;me pour une dimension plus que 1 (out of bounds)</H1>
+    <B>admin at berlios.de</B> 
+    <A HREF="mailto:ometah-devel%40lists.berlios.de?Subject=Re%3A%20%5BOmetah-devel%5D%20%5BBug%20%237657%5D%20probl%E8me%20pour%20une%20dimension%20plus%20que%201%20%28out%20of%20bounds%29&In-Reply-To=%3C200605301536.k4UFaXEB028975%40unicorn.berlios.de%3E"
+       TITLE="[Ometah-devel] [Bug #7657] probl&#232;me pour une dimension plus que 1 (out of bounds)">admin at berlios.de
+       </A><BR>
+    <I>Tue May 30 17:36:33 CEST 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000638.html">[Ometah-devel] CVS update: ometah/metaheuristic/antcolony
+</A></li>
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#639">[ date ]</a>
+              <a href="thread.html#639">[ thread ]</a>
+              <a href="subject.html#639">[ subject ]</a>
+              <a href="author.html#639">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Bug #7657, was updated on 2006-May-30 17:36
+Here is a current snapshot of the bug.
+
+Project: Open Metaheuristic
+Category: Interface
+Status: Open
+Resolution: None
+Bug Group: bug report
+Priority: 5
+Submitted by: walid_tfaili
+Assigned to : none
+Summary: probl&#232;me pour une dimension plus que 1 (out of bounds)
+
+Details: probl&#232;me avec les commandes (ometah):
+
+./ometah -s 10 -i 100 -p Griewank -d 2 -m SA
+./ometah -s 10 -i 100 -p Sphere -d 2 -m SA
+./ometah -s 10 -i 100 -p Sphere -d 2 -m RA
+
+/usr/lib/gcc/i386-redhat-linux/4.0.2/../../../../include/c++/4.0.2/debug/vector:192:
+    error: attempt to subscript container with out-of-bounds index 1, but
+    container only holds 1 elements.
+Objects involved in the operation:
+sequence &quot;this&quot; @ 0x0xbfb6ba38 {
+  type = N15__gnu_debug_def6vectorIdSaIdEEE;
+}
+Abandon
+
+pour les commandes suivantes avec dimension 1 (&#231;a marche):
+./ometah -s 10 -i 100 -p Griewank -d 1 -m SA
+./ometah -s 10 -i 100 -p Sphere -d 1 -m SA
+./ometah -s 10 -i 100 -p Sphere -d 1 -m RA
+
+
+
+For detailed info, follow this link:
+<A HREF="http://developer.berlios.de/bugs/?func=detailbug&amp;bug_id=7657&amp;group_id=3955">http://developer.berlios.de/bugs/?func=detailbug&amp;bug_id=7657&amp;group_id=3955</A>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000638.html">[Ometah-devel] CVS update: ometah/metaheuristic/antcolony
+</A></li>
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#639">[ date ]</a>
+              <a href="thread.html#639">[ thread ]</a>
+              <a href="subject.html#639">[ subject ]</a>
+              <a href="author.html#639">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/ometah-devel">More information about the Ometah-devel
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,131 @@
+From admin at berlios.de  Fri Aug 25 08:14:51 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 25 Aug 2006 08:14:51 +0200 (CEST)
+Subject: [Ometah-devel] [Task #3085] Protocl to connect to the Huygens
+	benchmark server
+Message-ID: <200608250614.k7P6EpH7004376@unicorn.berlios.de>
+
+Task #3085 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Protocl to connect to the Huygens benchmark server
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: http://gungurru.csse.uwa.edu.au/cgi-bin/WebObjects/huygensWS
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=3085&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Tue Aug 29 22:15:12 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Tue, 29 Aug 2006 22:15:12 +0200 (CEST)
+Subject: [Ometah-devel] [Task #3088] Use accessors everywhere in
+	metaheuristic base class
+Message-ID: <200608292015.k7TKFCCA009094@unicorn.berlios.de>
+
+Task #3088 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Use accessors everywhere in metaheuristic base class
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: nojhan
+
+Description: attributes must be privates
+
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=3088&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Tue Aug 29 22:15:55 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Tue, 29 Aug 2006 22:15:55 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2875] Binding with EO
+Message-ID: <200608292015.k7TKFtxe009170@unicorn.berlios.de>
+
+Task #2875 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Binding with EO
+Priority: 7
+Percent Complete: 50%
+Status: Open
+Authority  : nojhan
+Assigned to: nojhan
+
+Description: Either :
+* facilitate the use of EO inside oMetah
+* code an EO output in the oMetah's XML
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2875&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Tue Aug 29 22:16:53 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Tue, 29 Aug 2006 22:16:53 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2904] SWIG binding
+Message-ID: <200608292016.k7TKGrlr009267@unicorn.berlios.de>
+
+Task #2904 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: SWIG binding
+Priority: 7
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: nojhan
+
+Description: We should permit to embbed oMetah in some other langages, like python. Using SWIG seems to be the best idea.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2904&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Tue Aug 29 22:17:42 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Tue, 29 Aug 2006 22:17:42 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2905] Use CSV output cache instead of
+	serialization
+Message-ID: <200608292017.k7TKHgKl009340@unicorn.berlios.de>
+
+Task #2905 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetahLab
+Summary: Use CSV output cache instead of serialization
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: nojhan
+
+Description: This is particulary necessary when we have a huge amount of points
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2905&group_id=3955&group_project_id=986
+
+

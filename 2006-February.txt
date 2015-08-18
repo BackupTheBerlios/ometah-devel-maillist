@@ -1,0 +1,891 @@
+From nojhan at berlios.de  Wed Feb  1 09:52:21 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 09:52:21 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <43E076C5.MailLYO11AE9Q@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 8:52
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv23163/metaheuristic
+
+Modified Files:
+	itsMetaheuristic.hpp itsMetaheuristic.cpp 
+Log Message:
+* adding the possibility to specify a random seed for the initialization step only
+
+===================================================================
+File: no file itsMetaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.18	Wed Feb  1 08:52:21 2006
+   Repository revision:	1.18	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.17)
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsMetaheuristic.cpp		Status: Needs Checkout
+
+   Working revision:	1.24	Wed Feb  1 08:52:21 2006
+   Repository revision:	1.24	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.23)
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb  1 09:52:21 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 09:52:21 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <43E076C5.MailLWN1ONY8N@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 8:52
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv23163/interface
+
+Modified Files:
+	ometah.cpp 
+Log Message:
+* adding the possibility to specify a random seed for the initialization step only
+
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.21	Wed Feb  1 08:52:20 2006
+   Repository revision:	1.21	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.20)
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb  1 09:53:44 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 09:53:44 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43E07718.MailNDF18GXZ5@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 8:53
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv30135
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+* initialization step random seed
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.2	Wed Feb  1 08:53:44 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb  1 10:37:56 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 10:37:56 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43E08174.Mail2NZ117WE7@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 9:37
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv3375
+
+Modified Files:
+	CHANGELOG demo_simple.py ometahtest.py plugin.py 
+Log Message:
+* possibility of unsing several files for plugins that need it
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.2	Wed Feb  1 09:37:55 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: demo_simple.py   	Status: Up-to-date
+
+   Working revision:	1.4	Wed Feb  1 09:37:55 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahtest.py    	Status: Up-to-date
+
+   Working revision:	1.57	Wed Feb  1 09:37:56 2006
+   Repository revision:	1.57	/cvsroot/ometah/ometahlab/ometahtest.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.4	Wed Feb  1 09:37:56 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb  1 10:37:56 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 10:37:56 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43E08174.Mail2O8119ZCC@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 9:37
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv3375/plugins
+
+Modified Files:
+	end_optimum_distribution.py 
+	end_optimum_distribution_position2D.py end_optimum_position.py 
+	iteration_all_quantilebox.py iteration_median_logarithmic.py 
+	iteration_optimum_quantilebox.py 
+Log Message:
+* possibility of unsing several files for plugins that need it
+
+===================================================================
+File: end_optimum_distribution.py	Status: Up-to-date
+
+   Working revision:	1.3	Wed Feb  1 09:37:56 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_distribution_position2D.py	Status: Up-to-date
+
+   Working revision:	1.3	Wed Feb  1 09:37:56 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution_position2D.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_position.py	Status: Up-to-date
+
+   Working revision:	1.4	Wed Feb  1 09:37:56 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/plugins/end_optimum_position.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_all_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.3	Wed Feb  1 09:37:56 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/iteration_all_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_median_logarithmic.py	Status: Up-to-date
+
+   Working revision:	1.3	Wed Feb  1 09:37:56 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/iteration_median_logarithmic.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_optimum_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.3	Wed Feb  1 09:37:56 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/iteration_optimum_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb  1 19:05:23 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 19:05:23 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43E0F863.MailFAQ1MCJ80@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 18:05
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv19764/plugins
+
+Added Files:
+	report_html.tmpl 
+Log Message:
+* a report manager
+
+===================================================================
+File: report_html.tmpl 	Status: Up-to-date
+
+   Working revision:	1.1	Wed Feb  1 18:05:21 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/report_html.tmpl,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb  1 19:05:23 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 19:05:23 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43E0F863.MailFAI114XOV@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 18:05
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv19764
+
+Modified Files:
+	CHANGELOG ometahstats.py ometahtest.py plugin.py 
+Log Message:
+* a report manager
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.3	Wed Feb  1 18:05:21 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahstats.py   	Status: Up-to-date
+
+   Working revision:	1.69	Wed Feb  1 18:05:21 2006
+   Repository revision:	1.69	/cvsroot/ometah/ometahlab/ometahstats.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahtest.py    	Status: Up-to-date
+
+   Working revision:	1.58	Wed Feb  1 18:05:21 2006
+   Repository revision:	1.58	/cvsroot/ometah/ometahlab/ometahtest.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.5	Wed Feb  1 18:05:21 2006
+   Repository revision:	1.5	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb  1 19:16:46 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 19:16:46 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43E0FB0E.MailK9A14UI5P@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 18:16
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv25763
+
+Modified Files:
+	ometahstats.py 
+Log Message:
+* better descriptions for some plugins
+* better output at report process stage
+
+===================================================================
+File: ometahstats.py   	Status: Up-to-date
+
+   Working revision:	1.70	Wed Feb  1 18:16:45 2006
+   Repository revision:	1.70	/cvsroot/ometah/ometahlab/ometahstats.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb  1 19:16:46 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 19:16:46 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43E0FB0E.MailK9F1YXM1V@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 18:16
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv25763/plugins
+
+Modified Files:
+	end_optimum_distribution.py 
+	end_optimum_distribution_position2D.py 
+Log Message:
+* better descriptions for some plugins
+* better output at report process stage
+
+===================================================================
+File: end_optimum_distribution.py	Status: Up-to-date
+
+   Working revision:	1.4	Wed Feb  1 18:16:45 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_distribution_position2D.py	Status: Up-to-date
+
+   Working revision:	1.4	Wed Feb  1 18:16:45 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution_position2D.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb  1 19:37:07 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 19:37:07 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43E0FFD3.Mail2C211RXL9@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 18:37
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv2935
+
+Modified Files:
+	CHANGELOG ometahstats.py 
+Log Message:
+* all keyword to use all plugins
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.4	Wed Feb  1 18:36:53 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahstats.py   	Status: Up-to-date
+
+   Working revision:	1.71	Wed Feb  1 18:36:56 2006
+   Repository revision:	1.71	/cvsroot/ometah/ometahlab/ometahstats.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb  1 19:38:15 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 01 Feb 2006 19:38:15 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43E10017.Mail2ND1RWGHQ@sheep.berlios.de>
+
+Date:	Wednesday February 1, 2006 @ 18:38
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv3178/plugins
+
+Modified Files:
+	plugin_template.py report_html.tmpl 
+Log Message:
+* report madein
+* the plugin template is no more recognize as a plugin
+
+===================================================================
+File: plugin_template.py	Status: Up-to-date
+
+   Working revision:	1.3	Wed Feb  1 18:38:13 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/plugin_template.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: report_html.tmpl 	Status: Up-to-date
+
+   Working revision:	1.2	Wed Feb  1 18:38:13 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/report_html.tmpl,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Thu Feb  9 15:55:48 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 09 Feb 2006 15:55:48 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/neldermead
+Message-ID: <43EB57F4.MailOKW1MDOP5@sheep.berlios.de>
+
+Date:	Thursday February 9, 2006 @ 14:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/neldermead
+In directory sheep:/tmp/cvs-serv31650/metaheuristic/neldermead
+
+Modified Files:
+	itsNelderMead.cpp 
+Log Message:
+* citation
+
+===================================================================
+File: no file itsNelderMead.cpp		Status: Needs Checkout
+
+   Working revision:	1.13	Thu Feb  9 14:55:47 2006
+   Repository revision:	1.13	/cvsroot/ometah/ometah/metaheuristic/neldermead/itsNelderMead.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.12)
+
+
+
+From admin at berlios.de  Thu Feb  9 15:51:51 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Thu, 9 Feb 2006 15:51:51 +0100 (CET)
+Subject: [Ometah-devel] [Task #2182] add Citation NMS
+Message-ID: <200602091451.k19Epp90005360@unicorn.berlios.de>
+
+Task #2182 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: add Citation NMS
+Priority: 5
+Percent Complete: 100%
+Status: Closed
+Authority  : jpau
+Assigned to: nojhan
+
+Description: ..
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2182&group_id=3955&group_project_id=987
+
+
+From nojhan at berlios.de  Wed Feb 22 14:57:02 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 14:57:02 +0100
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <43FC6DAE.Mail77B1E3J3W@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 13:57
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv9264
+
+Modified Files:
+	itsPoint.cpp itsPoint.hpp 
+Log Message:
+* add a function for value-based selection of points in a sample
+===================================================================
+File: no file itsPoint.cpp		Status: Needs Checkout
+
+   Working revision:	1.6	Wed Feb 22 13:56:55 2006
+   Repository revision:	1.6	/cvsroot/ometah/ometah/common/itsPoint.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.5)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsPoint.hpp		Status: Needs Checkout
+
+   Working revision:	1.5	Wed Feb 22 13:56:55 2006
+   Repository revision:	1.5	/cvsroot/ometah/ometah/common/itsPoint.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.4)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb 22 14:58:55 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 14:58:55 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <43FC6E1F.Mail83S154F5J@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 13:58
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv10397
+
+Modified Files:
+	itsArgument.cpp 
+Log Message:
+* flags marks automatically managed
+===================================================================
+File: no file itsArgument.cpp		Status: Needs Checkout
+
+   Working revision:	1.15	Wed Feb 22 13:58:43 2006
+   Repository revision:	1.15	/cvsroot/ometah/ometah/interface/itsArgument.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.14)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:01:52 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:01:52 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <43FC6ED0.Mail9AN1I0WVN@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:01
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv12008
+
+Modified Files:
+	ometah.hpp 
+Log Message:
+* version 0.2.4a
+===================================================================
+File: no file ometah.hpp		Status: Needs Checkout
+
+   Working revision:	1.16	Wed Feb 22 14:01:49 2006
+   Repository revision:	1.16	/cvsroot/ometah/ometah/interface/ometah.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.15)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:02:05 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:02:05 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <43FC6EDD.Mail9ET1LJ1PI@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:02
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv12153
+
+Modified Files:
+	ometah.cpp 
+Log Message:
+* flags marks automatically managed
+* silent mode
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.22	Wed Feb 22 14:02:04 2006
+   Repository revision:	1.22	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.20)
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:05:05 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:05:05 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/estimation
+Message-ID: <43FC6F91.MailAJD118PQC@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:05
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/estimation
+In directory sheep:/tmp/cvs-serv13561
+
+Modified Files:
+	itsEstimationOfDistribution.cpp 
+	itsEstimationOfDistribution.hpp 
+Log Message:
+* add a function for value-based selection of points in a sample
+===================================================================
+File: no file itsEstimationOfDistribution.cpp		Status: Needs Checkout
+
+   Working revision:	1.8	Wed Feb 22 14:05:02 2006
+   Repository revision:	1.8	/cvsroot/ometah/ometah/metaheuristic/estimation/itsEstimationOfDistribution.cpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.7)
+
+===================================================================
+File: no file itsEstimationOfDistribution.hpp		Status: Needs Checkout
+
+   Working revision:	1.5	Wed Feb 22 14:05:02 2006
+   Repository revision:	1.5	/cvsroot/ometah/ometah/metaheuristic/estimation/itsEstimationOfDistribution.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.4)
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:06:02 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:06:02 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <43FC6FCA.MailAQR115H68@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:06
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv13897
+
+Modified Files:
+	itsMetaheuristic.hpp 
+Log Message:
+* the initialization function is now public
+===================================================================
+File: no file itsMetaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.19	Wed Feb 22 14:06:00 2006
+   Repository revision:	1.19	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.hpp,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.17)
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:07:04 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:07:04 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43FC7008.MailBA9117L46@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:07
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv14566
+
+Modified Files:
+	CHANGELOG SConstruct 
+Log Message:
+* version 0.2.4a
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.3	Wed Feb 22 14:07:02 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometah/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.31	Wed Feb 22 14:07:02 2006
+   Repository revision:	1.31	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.27)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:08:12 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:08:12 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43FC704C.MailBPJ1A8W31@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:08
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv15140
+
+Modified Files:
+	ometah.pws 
+Log Message:
+* version 0.2.4a
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.19	Wed Feb 22 14:08:09 2006
+   Repository revision:	1.19	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.18)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:48:23 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:48:23 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43FC79B7.MailLA811726Q@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:48
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv27517
+
+Added Files:
+	ometahlab_gui.py 
+Log Message:
+* very simple gui for ometahlab
+
+===================================================================
+File: no file ometahlab_gui.py		Status: Needs Checkout
+
+   Working revision:	1.1	Wed Feb 22 14:48:22 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/ometahlab_gui.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:52:47 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:52:47 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43FC7ABF.MailNDA11UN9M@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:52
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv30249
+
+Modified Files:
+	demo_simple.py 
+Log Message:
+correct demo file
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.5	Wed Feb 22 14:52:46 2006
+   Repository revision:	1.5	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Feb 22 15:52:08 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 22 Feb 2006 15:52:08 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43FC7A98.MailN1F11SZDO@sheep.berlios.de>
+
+Date:	Wednesday February 22, 2006 @ 14:52
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv29836
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+* the GUI
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.5	Wed Feb 22 14:52:07 2006
+   Repository revision:	1.5	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Thu Feb 23 11:38:04 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 23 Feb 2006 11:38:04 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43FD908C.Mail4H112TYWN@sheep.berlios.de>
+
+Date:	Thursday February 23, 2006 @ 10:38
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv5724
+
+Modified Files:
+	demo_simple.py 
+Log Message:
+* simplification and shorter execution time
+
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.6	Thu Feb 23 10:38:04 2006
+   Repository revision:	1.6	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+

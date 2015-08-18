@@ -1,0 +1,269 @@
+From nojhan at berlios.de  Fri Dec  2 15:39:49 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 02 Dec 2005 15:39:49 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43905CB5.Mail7LS1NORM2@sheep.berlios.de>
+
+Date:	Friday December 2, 2005 @ 14:39
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv9810
+
+Modified Files:
+	SConstruct 
+Added Files:
+	AccumulatorAction.py Zipper.py myShutil.py 
+Log Message:
+* target to make zip packages
+===================================================================
+File: AccumulatorAction.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Dec  2 14:39:46 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/AccumulatorAction.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: Zipper.py        	Status: Up-to-date
+
+   Working revision:	1.1	Fri Dec  2 14:39:46 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/Zipper.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: myShutil.py      	Status: Up-to-date
+
+   Working revision:	1.1	Fri Dec  2 14:39:46 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/myShutil.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.26	Fri Dec  2 14:39:47 2005
+   Repository revision:	1.26	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Dec  2 15:40:19 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 02 Dec 2005 15:40:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem
+Message-ID: <43905CD3.Mail82T11ROFV@sheep.berlios.de>
+
+Date:	Friday December 2, 2005 @ 14:40
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem
+In directory sheep:/tmp/cvs-serv10424
+
+Modified Files:
+	itsProblem.cpp itsProblem.hpp 
+Log Message:
+* bugfix : can set fixed dimension
+===================================================================
+File: no file itsProblem.cpp		Status: Needs Checkout
+
+   Working revision:	1.10	Fri Dec  2 14:40:19 2005
+   Repository revision:	1.10	/cvsroot/ometah/ometah/problem/itsProblem.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsProblem.hpp		Status: Needs Checkout
+
+   Working revision:	1.7	Fri Dec  2 14:40:19 2005
+   Repository revision:	1.7	/cvsroot/ometah/ometah/problem/itsProblem.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Dec  2 15:53:45 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 02 Dec 2005 15:53:45 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43905FF9.MailOK311L89O@sheep.berlios.de>
+
+Date:	Friday December 2, 2005 @ 14:53
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv31800
+
+Modified Files:
+	SConstruct 
+Log Message:
+* add the OS/arch to the zip name
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.27	Fri Dec  2 14:53:43 2005
+   Repository revision:	1.27	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at gmail.com  Mon Dec  5 15:17:44 2005
+From: nojhan at gmail.com (nojhan)
+Date: Mon, 05 Dec 2005 15:17:44 +0100
+Subject: [Ometah-devel] Histogramme 2D
+Message-ID: <1133792265.9992.47.camel@localhost.localdomain>
+
+On en avait parl? avec Maurice Clerc, je viens de voir qu'il ?tait
+possible de tracer des distributions de fr?quences pour deux dimensions
+avec R. 
+
+Il devrait maintenant ?tre simple d'int?grer ce genre de graphique ?
+ometahlab :
+http://addictedtor.free.fr/graphiques/RGraphGallery_fr.php?graph=70
+
+-- 
+Johann Dr?o
+
+Universit? de Paris 12 (LISSI, EA-3956)
+61 av. du G?n?ral de Gaulle, 94010 CR?TEIL Cedex
+
+T?l. : 01.45.17.14.95  B?timent P2, bureau 231
+Web : http://nojhan.free.fr
+IM : nojhan at jabber.org
+
+
+
+From nojhan at berlios.de  Thu Dec  8 23:59:26 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 08 Dec 2005 23:59:26 +0100
+Subject: [Ometah-devel] CVS update: registration
+Message-ID: <4398BACE.Mail8U41YSEHD@sheep.berlios.de>
+
+Date:	Thursday December 8, 2005 @ 22:59
+Author:	nojhan
+
+Update of /cvsroot/ometah/registration
+In directory sheep:/tmp/cvs-serv11384
+
+Modified Files:
+	SConstruct 
+Log Message:
+* use the lib in . by default
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.2	Thu Dec  8 22:59:26 2005
+   Repository revision:	1.2	/cvsroot/ometah/registration/SConstruct,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	V_1_1_1                  	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Sun Dec 11 16:36:37 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Sun, 11 Dec 2005 16:36:37 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <439C4785.MailED411RVAP@sheep.berlios.de>
+
+Date:	Sunday December 11, 2005 @ 15:36
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv18592
+
+Modified Files:
+	SConstruct 
+Log Message:
+* faster optimization switches for gcc
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.29	Sun Dec 11 15:36:36 2005
+   Repository revision:	1.29	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.27)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Sun Dec 11 17:00:29 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Sun, 11 Dec 2005 17:00:29 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <439C4D1D.MailHYH11U3R5@sheep.berlios.de>
+
+Date:	Sunday December 11, 2005 @ 16:00
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv23233
+
+Added Files:
+	compilation_tuning.py 
+Log Message:
+* a simple script for checking the best flags to use when compiling
+
+===================================================================
+File: compilation_tuning.py	Status: Up-to-date
+
+   Working revision:	1.1	Sun Dec 11 16:00:29 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/compilation_tuning.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Dec 16 15:28:50 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 16 Dec 2005 15:28:50 +0100
+Subject: [Ometah-devel] CVS update: registration
+Message-ID: <43A2CF22.Mail5501M9XY7@sheep.berlios.de>
+
+Date:	Friday December 16, 2005 @ 14:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/registration
+In directory sheep:/tmp/cvs-serv6493
+
+Modified Files:
+	ometah_registration.cpp 
+Log Message:
+* bugfix : macros name & warnings on comparisons
+
+===================================================================
+File: no file ometah_registration.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Dec 16 14:28:45 2005
+   Repository revision:	1.2	/cvsroot/ometah/registration/ometah_registration.cpp,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	V_1_1_1                  	(branch: 1.1.1)
+
+
+

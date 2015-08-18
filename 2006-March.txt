@@ -1,0 +1,1180 @@
+From nojhan at berlios.de  Fri Mar  3 16:37:37 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 16:37:37 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <440862C1.MailOD0115LOU@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 15:37
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv31461
+
+Added Files:
+	end_optimum_distribution_position2D_kernelestimation.py 
+Log Message:
+* gaussian kernel estimation of end optimum position distribution
+
+===================================================================
+File: end_optimum_distribution_position2D_kernelestimation.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 15:37:36 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution_position2D_kernelestimation.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar  3 16:42:43 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 16:42:43 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <440863F3.MailOWF113ZSX@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 15:42
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv32248/plugins
+
+Modified Files:
+	end_optimum_distribution_position2D_kernelestimation.py 
+Log Message:
+* new kernel estimation plugin
+===================================================================
+File: end_optimum_distribution_position2D_kernelestimation.py	Status: Up-to-date
+
+   Working revision:	1.2	Fri Mar  3 15:42:43 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution_position2D_kernelestimation.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar  3 16:42:43 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 16:42:43 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <440863F3.MailOWK1S9UAT@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 15:42
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv32248
+
+Modified Files:
+	CHANGELOG demo_simple.py 
+Log Message:
+* new kernel estimation plugin
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.6	Fri Mar  3 15:42:43 2006
+   Repository revision:	1.6	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.7	Fri Mar  3 15:42:43 2006
+   Repository revision:	1.7	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar  3 21:59:15 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 21:59:15 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <4408AE23.MailEPF11IE30@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 20:59
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv18929
+
+Modified Files:
+	plugin_template.py 
+Added Files:
+	end_optimum_solution_distribution_2D_kernelestimation.py 
+	end_optimum_solution_histogram2D.py 
+	end_optimum_solution_points.py end_optimum_value_bestworst.py 
+	end_optimum_value_histogram.py end_optimum_value_kruskal.py 
+	end_optimum_value_quantilebox.py 
+	end_optimum_value_successrate.py 
+	iterationall_value_median_logarithmic.py 
+	iteration_all_value_quantilebox.py 
+	iteration_optimum_value_quantilebox.py 
+Log Message:
+* more complete name for plugins
+
+===================================================================
+File: end_optimum_solution_distribution_2D_kernelestimation.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_solution_distribution_2D_kernelestimation.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_solution_histogram2D.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_solution_histogram2D.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_solution_points.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_solution_points.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_value_bestworst.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_value_bestworst.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_value_histogram.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_value_histogram.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_value_kruskal.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_value_kruskal.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_value_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_value_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_value_successrate.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_value_successrate.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iterationall_value_median_logarithmic.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/iterationall_value_median_logarithmic.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_all_value_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/iteration_all_value_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_optimum_value_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/iteration_optimum_value_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin_template.py	Status: Up-to-date
+
+   Working revision:	1.4	Fri Mar  3 20:59:12 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/plugins/plugin_template.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar  3 22:01:49 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 22:01:49 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <4408AEBD.MailF761MTIVV@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 21:01
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv19605
+
+Modified Files:
+	demo_simple.py plugin.py 
+Log Message:
+* new name for plugins
+* add a common function for ACP on solution space
+
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.8	Fri Mar  3 21:01:49 2006
+   Repository revision:	1.8	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.6	Fri Mar  3 21:01:49 2006
+   Repository revision:	1.6	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar  3 22:01:49 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 22:01:49 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <4408AEBD.MailF7D1EQAG9@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 21:01
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv19605/plugins
+
+Removed Files:
+	end_optimum_distribution.py 
+	end_optimum_distribution_position2D.py 
+	end_optimum_distribution_position2D_kernelestimation.py 
+	end_optimum_kruskal.py end_optimum_position.py 
+	end_optimum_quantilebox.py end_optimum_successrate.py 
+	iteration_all_quantilebox.py iteration_median_logarithmic.py 
+	iteration_optimum_quantilebox.py 
+Log Message:
+* new name for plugins
+* add a common function for ACP on solution space
+
+===================================================================
+File: no file end_optimum_distribution.py		Status: Up-to-date
+
+   Working revision:	No entry for end_optimum_distribution.py
+   Repository revision:	1.5	/cvsroot/ometah/ometahlab/plugins/Attic/end_optimum_distribution.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file end_optimum_distribution_position2D.py		Status: Up-to-date
+
+   Working revision:	No entry for end_optimum_distribution_position2D.py
+   Repository revision:	1.5	/cvsroot/ometah/ometahlab/plugins/Attic/end_optimum_distribution_position2D.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file end_optimum_distribution_position2D_kernelestimation.py		Status: Up-to-date
+
+   Working revision:	No entry for end_optimum_distribution_position2D_kernelestimation.py
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/Attic/end_optimum_distribution_position2D_kernelestimation.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file end_optimum_kruskal.py		Status: Up-to-date
+
+   Working revision:	No entry for end_optimum_kruskal.py
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/Attic/end_optimum_kruskal.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file end_optimum_position.py		Status: Up-to-date
+
+   Working revision:	No entry for end_optimum_position.py
+   Repository revision:	1.5	/cvsroot/ometah/ometahlab/plugins/Attic/end_optimum_position.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file end_optimum_quantilebox.py		Status: Up-to-date
+
+   Working revision:	No entry for end_optimum_quantilebox.py
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/Attic/end_optimum_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file end_optimum_successrate.py		Status: Up-to-date
+
+   Working revision:	No entry for end_optimum_successrate.py
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/Attic/end_optimum_successrate.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file iteration_all_quantilebox.py		Status: Up-to-date
+
+   Working revision:	No entry for iteration_all_quantilebox.py
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/plugins/Attic/iteration_all_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file iteration_median_logarithmic.py		Status: Up-to-date
+
+   Working revision:	No entry for iteration_median_logarithmic.py
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/plugins/Attic/iteration_median_logarithmic.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file iteration_optimum_quantilebox.py		Status: Up-to-date
+
+   Working revision:	No entry for iteration_optimum_quantilebox.py
+   Repository revision:	1.4	/cvsroot/ometah/ometahlab/plugins/Attic/iteration_optimum_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar  3 22:17:18 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 22:17:18 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <4408B25E.MailGZQ11VBQU@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 21:17
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv21942
+
+Modified Files:
+	CHANGELOG 
+Log Message:
+* new name for plugins
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.7	Fri Mar  3 21:17:17 2006
+   Repository revision:	1.7	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar  3 22:24:32 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 22:24:32 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <4408B410.MailHWG1VGP75@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 21:24
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv23112
+
+Added Files:
+	iteration_all_value_median_logarithmic.py 
+Log Message:
+* error in name
+
+===================================================================
+File: iteration_all_value_median_logarithmic.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Mar  3 21:24:32 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/iteration_all_value_median_logarithmic.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar  3 22:26:46 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 03 Mar 2006 22:26:46 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <4408B496.MailI6311O6JS@sheep.berlios.de>
+
+Date:	Friday March 3, 2006 @ 21:26
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv23518
+
+Modified Files:
+	demo_simple.py 
+Log Message:
+* bad name
+
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.9	Fri Mar  3 21:26:46 2006
+   Repository revision:	1.9	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Mar  4 23:08:38 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Sat, 04 Mar 2006 23:08:38 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <440A0FE6.Mail3AM111I7P@sheep.berlios.de>
+
+Date:	Saturday March 4, 2006 @ 22:08
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv3972
+
+Modified Files:
+	demo_simple.py plugin.py 
+Log Message:
+* bugfix : return all the variables from the ACP
+
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.10	Sat Mar  4 22:08:38 2006
+   Repository revision:	1.10	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.7	Sat Mar  4 22:08:38 2006
+   Repository revision:	1.7	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Mar  4 23:08:39 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Sat, 04 Mar 2006 23:08:39 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <440A0FE7.Mail3AS1L2WV6@sheep.berlios.de>
+
+Date:	Saturday March 4, 2006 @ 22:08
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv3972/plugins
+
+Modified Files:
+	end_optimum_solution_distribution_2D_kernelestimation.py 
+	end_optimum_solution_histogram2D.py 
+Removed Files:
+	iterationall_value_median_logarithmic.py 
+Log Message:
+* bugfix : return all the variables from the ACP
+
+===================================================================
+File: end_optimum_solution_distribution_2D_kernelestimation.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Mar  4 22:08:38 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_solution_distribution_2D_kernelestimation.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_solution_histogram2D.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Mar  4 22:08:38 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_solution_histogram2D.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file iterationall_value_median_logarithmic.py		Status: Up-to-date
+
+   Working revision:	No entry for iterationall_value_median_logarithmic.py
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/Attic/iterationall_value_median_logarithmic.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From admin at berlios.de  Thu Mar  9 10:00:31 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Thu, 9 Mar 2006 10:00:31 +0100 (CET)
+Subject: [Ometah-devel] [Bug #4644] CHEDA + Sphere d 10 => nan values
+Message-ID: <200603090900.k2990VPC012914@unicorn.berlios.de>
+
+Bug #4644, was updated on 2005-Jul-22 15:56
+Here is a current snapshot of the bug.
+
+Project: Open Metaheuristic
+Category: None
+Status: Closed
+Resolution: Fixed
+Bug Group: None
+Priority: 5
+Submitted by: jpau
+Assigned to : none
+Summary: CHEDA + Sphere d 10 => nan values
+
+Details: 
+$ ./ometah -e 220 -p Sphere -d 10 -P 0.00001 -m CHEDA | grep nan
+( ... )
+<point><values>nan</values><solution>1 nan nan nan nan nan nan nan nan nan</solution></point>
+<point><values>nan</values><solution>0.58604 nan nan nan nan nan nan nan nan nan</solution></point>
+<point><values>nan</values><solution>0.0807203 nan nan nan nan nan nan nan nan nan</solution></point>
+<point><values>nan</values><solution>0.0620624 nan nan nan nan nan nan nan nan nan</solution></point>
+<point><values>nan</values><solution>0.769749 nan nan nan nan nan nan nan nan nan</solution></point>
+<point><values>nan</values><solution>0.367125 nan nan nan nan nan nan nan nan nan</solution></point>
+<point><values>nan</values><solution>0.609303 nan nan nan nan nan nan nan nan nan</solution></point>
+<point><values>nan</values><solution>1 nan nan nan nan nan nan nan nan nan</solution></point>
+
+
+For detailed info, follow this link:
+http://developer.berlios.de/bugs/?func=detailbug&bug_id=4644&group_id=3955
+
+
+From admin at berlios.de  Thu Mar  9 10:31:02 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Thu, 9 Mar 2006 10:31:02 +0100 (CET)
+Subject: [Ometah-devel] [Bug #6732] Problem for demo_simple.py if dimension >2
+Message-ID: <200603090931.k299V2sd013565@unicorn.berlios.de>
+
+Bug #6732, was updated on 2006-Mar-09 10:30
+Here is a current snapshot of the bug.
+
+Project: Open Metaheuristic
+Category: None
+Status: Open
+Resolution: None
+Bug Group: None
+Priority: 5
+Submitted by: cooren
+Assigned to : none
+Summary: Problem for demo_simple.py if dimension >2
+
+Details: I try to execute demo_simple.py with a dimension >2 for problems. So, I have just modified the original file by replacing:
+
+u.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 2 -m CEDA')
+by
+u.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 3 -m CEDA')
+
+and 
+
+v.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 2 -m RA')
+by
+v.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 3 -m RA')
+
+The program is executing well until "Non-parametric test on optima error over all tests:  1.90734863281e-06"
+At this moment, the program doesn't stop but it runs without end. Nothing is written after "Non parametric..."
+I've tried for other dimensions and the problem is the same.
+
+For detailed info, follow this link:
+http://developer.berlios.de/bugs/?func=detailbug&bug_id=6732&group_id=3955
+
+
+From nojhan at berlios.de  Fri Mar 10 17:02:45 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 10 Mar 2006 17:02:45 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <4411A325.MailIHD116FNW@sheep.berlios.de>
+
+Date:	Friday March 10, 2006 @ 16:02
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv23754/plugins
+
+Modified Files:
+	end_optimum_value_kruskal.py 
+Log Message:
+* del the output for this test
+* add a warning for tests over 1 set
+
+===================================================================
+File: end_optimum_value_kruskal.py	Status: Up-to-date
+
+   Working revision:	1.2	Fri Mar 10 16:02:45 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_value_kruskal.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Mar 10 17:15:39 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 10 Mar 2006 17:15:39 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <4411A62B.MailJ7E1UC63P@sheep.berlios.de>
+
+Date:	Friday March 10, 2006 @ 16:15
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv24865
+
+Modified Files:
+	plugin.py 
+Log Message:
+* fix on eigen values
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.8	Fri Mar 10 16:15:39 2006
+   Repository revision:	1.8	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Thu Mar 16 19:04:19 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 16 Mar 2006 19:04:19 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <4419A8A3.MailM7B155CV1@sheep.berlios.de>
+
+Date:	Thursday March 16, 2006 @ 18:04
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv28642
+
+Added Files:
+	end_optimum_value_histogram_multi.py 
+Log Message:
+* all-in-one end optimums histogram
+
+===================================================================
+File: no file end_optimum_value_histogram_multi.py		Status: Needs Checkout
+
+   Working revision:	1.1	Thu Mar 16 18:04:16 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_value_histogram_multi.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Thu Mar 16 19:06:22 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 16 Mar 2006 19:06:22 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <4419A91E.MailMFN11842X@sheep.berlios.de>
+
+Date:	Thursday March 16, 2006 @ 18:06
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv28993
+
+Modified Files:
+	CHANGELOG demo_simple.py plugin.py 
+Log Message:
+* all-in-one histogram for end optimums values
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.8	Thu Mar 16 18:06:21 2006
+   Repository revision:	1.8	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file demo_simple.py		Status: Needs Checkout
+
+   Working revision:	1.11	Thu Mar 16 18:06:21 2006
+   Repository revision:	1.11	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.9	Thu Mar 16 18:06:21 2006
+   Repository revision:	1.9	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From admin at berlios.de  Fri Mar 31 12:49:46 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:49:46 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2094] Implement the CEC05 test protocol
+Message-ID: <200603311049.k2VAnkwe027581@unicorn.berlios.de>
+
+Task #2094 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetahLab
+Summary: Implement the CEC05 test protocol
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: ...
+
+Follow-Ups:
+
+-------------------------------------------------------
+Date: 2006-Mar-31 12:49
+By: nojhan
+
+Comment:
+In an ometahlab module.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2094&group_id=3955&group_project_id=986
+
+
+From admin at berlios.de  Fri Mar 31 12:50:06 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:50:06 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2096] Add some classical metaheuristics
+Message-ID: <200603311050.k2VAo6Kl027868@unicorn.berlios.de>
+
+Task #2096 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Add some classical metaheuristics
+Priority: 5
+Percent Complete: 50%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: ...
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2096&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 12:50:53 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:50:53 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2116] Dash control
+Message-ID: <200603311050.k2VAornm029703@unicorn.berlios.de>
+
+Task #2116 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Dash control
+Priority: 4
+Percent Complete: 100%
+Status: Closed
+Authority  : nojhan
+Assigned to: nojhan
+
+Description: Implement the control of dashes in the argmuent parser, so that we don't need to precise &quot;--long-option&quot; but only &quot;long-option&quot;.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2116&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 12:52:59 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:52:59 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2875] Binding with EO
+Message-ID: <200603311052.k2VAqx9x005604@unicorn.berlios.de>
+
+Task #2875 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Binding with EO
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Either :
+* facilitate the use of EO inside oMetah
+* code an EO output in the oMetah's XML
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2875&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 12:54:10 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:54:10 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2876] Binding Open BEAGLE
+Message-ID: <200603311054.k2VAsAVK009207@unicorn.berlios.de>
+
+Task #2876 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Binding Open BEAGLE
+Priority: 4
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Either :
+* facilitate the use of oBEAGLE inside oMetah
+* code a XML conversion tool from oBEAGLE to oMetah
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2876&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 12:55:42 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:55:42 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2877] Binding PISA
+Message-ID: <200603311055.k2VAtgCB013241@unicorn.berlios.de>
+
+Task #2877 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Binding PISA
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: * implement the PISA communication protocol
+* add a PISA observer that output XML
+* convert PISA output to XML
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2877&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 12:57:23 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:57:23 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2878] Binding MIXMOD
+Message-ID: <200603311057.k2VAvNWx017402@unicorn.berlios.de>
+
+Task #2878 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Binding MIXMOD
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: * use MIXMOD as a pdf generator for EDA
+* use metaheuristics as parameters search for MIXMOD
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2878&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 12:58:03 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:58:03 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2879] Binding R
+Message-ID: <200603311058.k2VAw3ek018486@unicorn.berlios.de>
+
+Task #2879 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Binding R
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: implement an R package using oMetah
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2879&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 12:58:31 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 12:58:31 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2880] Binding SciLab
+Message-ID: <200603311058.k2VAwV5O019627@unicorn.berlios.de>
+
+Task #2880 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Binding SciLab
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: implement a SciLab package using oMetah
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2880&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 13:00:26 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 13:00:26 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2881] Complete help on metah/problems
+Message-ID: <200603311100.k2VB0QsA022723@unicorn.berlios.de>
+
+Task #2881 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Complete help on metah/problems
+Priority: 6
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Add options like --help-metah or --help-pb that output complete available informations on a selected metaheuristic/problem.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2881&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 13:00:44 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 13:00:44 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2118] Parameter control
+Message-ID: <200603311100.k2VB0iLs022943@unicorn.berlios.de>
+
+Task #2118 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Parameter control
+Priority: 5
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Implement the control of parameters from arguments in derived classes of metaheuristics.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2118&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 13:01:07 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 13:01:07 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2093] Implement the CEC05 benchmark
+Message-ID: <200603311101.k2VB17NN023332@unicorn.berlios.de>
+
+Task #2093 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Implement the CEC05 benchmark
+Priority: 8
+Percent Complete: 25%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: ...
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2093&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 13:01:21 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 13:01:21 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2117] Parameters interval
+Message-ID: <200603311101.k2VB1LLm023553@unicorn.berlios.de>
+
+Task #2117 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Parameters interval
+Priority: 7
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Implement the management of parameters interval in the metaheuristics. So that the conceptor can precise what is a correct parameter.
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2117&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 13:01:45 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 13:01:45 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2113] Complexity tests
+Message-ID: <200603311101.k2VB1jhd023908@unicorn.berlios.de>
+
+Task #2113 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Complexity tests
+Priority: 3
+Percent Complete: 50%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: * implement a minimal random algorithm
+* implement a calibration 
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2113&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 13:02:01 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 13:02:01 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2104] Implement stopping criterions
+Message-ID: <200603311102.k2VB21nT024232@unicorn.berlios.de>
+
+Task #2104 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Implement stopping criterions
+Priority: 9
+Percent Complete: 75%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Number of iteration
+Precision limit
+Precision OR evaluations
+Precision AND evaluations
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2104&group_id=3955&group_project_id=987
+
+
+From admin at berlios.de  Fri Mar 31 13:02:43 2006
+From: admin at berlios.de (admin at berlios.de)
+Date: Fri, 31 Mar 2006 13:02:43 +0200 (CEST)
+Subject: [Ometah-devel] [Task #2875] Binding with EO
+Message-ID: <200603311102.k2VB2h2h025700@unicorn.berlios.de>
+
+Task #2875 has been updated. 
+
+Project: Open Metaheuristic
+Subproject: oMetah
+Summary: Binding with EO
+Priority: 7
+Percent Complete: 0%
+Status: Open
+Authority  : nojhan
+Assigned to: none
+
+Description: Either :
+* facilitate the use of EO inside oMetah
+* code an EO output in the oMetah's XML
+
+-------------------------------------------------------
+For more info, visit:
+
+http://developer.berlios.de/pm/task.php?func=detailtask&project_task_id=2875&group_id=3955&group_project_id=987
+
+

@@ -1,0 +1,367 @@
+From nojhan at mail.berlios.de  Wed May 23 10:57:19 2007
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Wed, 23 May 2007 10:57:19 +0200
+Subject: [Ometah-devel] CVS update: eometah
+Message-ID: <465401EF.MailI1R11MJZE@sheep.berlios.de>
+
+
+Date:	Wednesday May 23, 2007 @ 8:57
+Author:	nojhan
+
+Update of /cvsroot/ometah/eometah
+In directory sheep:/tmp/cvs-serv23353
+
+Removed Files:
+	AUTHORS COPYING ChangeLog INSTALL NEWS README TODO depcomp 
+	eometah.kdevelop install-sh ltmain.sh 
+Log Message:
+* removing all files before a new fresh import
+
+
+===================================================================
+File: no file AUTHORS		Status: Up-to-date
+
+   Working revision:	No entry for AUTHORS
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/AUTHORS,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file COPYING		Status: Up-to-date
+
+   Working revision:	No entry for COPYING
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/COPYING,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ChangeLog		Status: Up-to-date
+
+   Working revision:	No entry for ChangeLog
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/ChangeLog,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file INSTALL		Status: Up-to-date
+
+   Working revision:	No entry for INSTALL
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/INSTALL,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file NEWS		Status: Up-to-date
+
+   Working revision:	No entry for NEWS
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/NEWS,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file README		Status: Up-to-date
+
+   Working revision:	No entry for README
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/README,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file TODO		Status: Up-to-date
+
+   Working revision:	No entry for TODO
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/TODO,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file depcomp		Status: Up-to-date
+
+   Working revision:	No entry for depcomp
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/depcomp,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file eometah.kdevelop		Status: Up-to-date
+
+   Working revision:	No entry for eometah.kdevelop
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/eometah.kdevelop,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file install-sh		Status: Up-to-date
+
+   Working revision:	No entry for install-sh
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/install-sh,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ltmain.sh		Status: Up-to-date
+
+   Working revision:	No entry for ltmain.sh
+   Repository revision:	1.2	/cvsroot/ometah/eometah/Attic/ltmain.sh,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+
+
+From nojhan at mail.berlios.de  Wed May 23 10:57:19 2007
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Wed, 23 May 2007 10:57:19 +0200
+Subject: [Ometah-devel] CVS update: eometah/src
+Message-ID: <465401EF.MailI291ULR46@sheep.berlios.de>
+
+
+Date:	Wednesday May 23, 2007 @ 8:57
+Author:	nojhan
+
+Update of /cvsroot/ometah/eometah/src
+In directory sheep:/tmp/cvs-serv23353/src
+
+Removed Files:
+	Makefile.am eometah.cpp 
+Log Message:
+* removing all files before a new fresh import
+
+
+===================================================================
+File: no file Makefile.am		Status: Up-to-date
+
+   Working revision:	No entry for Makefile.am
+   Repository revision:	1.2	/cvsroot/ometah/eometah/src/Attic/Makefile.am,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file eometah.cpp		Status: Up-to-date
+
+   Working revision:	No entry for eometah.cpp
+   Repository revision:	1.2	/cvsroot/ometah/eometah/src/Attic/eometah.cpp,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+
+
+From nojhan at mail.berlios.de  Wed May 23 10:57:19 2007
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Wed, 23 May 2007 10:57:19 +0200
+Subject: [Ometah-devel] CVS update: eometah/templates
+Message-ID: <465401EF.MailI2I1FE0OH@sheep.berlios.de>
+
+
+Date:	Wednesday May 23, 2007 @ 8:57
+Author:	nojhan
+
+Update of /cvsroot/ometah/eometah/templates
+In directory sheep:/tmp/cvs-serv23353/templates
+
+Removed Files:
+	cpp h 
+Log Message:
+* removing all files before a new fresh import
+
+
+===================================================================
+File: no file cpp		Status: Up-to-date
+
+   Working revision:	No entry for cpp
+   Repository revision:	1.2	/cvsroot/ometah/eometah/templates/Attic/cpp,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: no file h		Status: Up-to-date
+
+   Working revision:	No entry for h
+   Repository revision:	1.2	/cvsroot/ometah/eometah/templates/Attic/h,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+
+
+From nojhan at mail.berlios.de  Wed May 23 11:01:58 2007
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Wed, 23 May 2007 11:01:58 +0200
+Subject: [Ometah-devel] CVS update: eometah
+Message-ID: <46540306.MailJ5T12RJGV@sheep.berlios.de>
+
+
+Date:	Wednesday May 23, 2007 @ 9:01
+Author:	nojhan
+
+Update of /cvsroot/ometah/eometah
+In directory sheep:/tmp/cvs-serv24079
+
+Added Files:
+	Doxyfile Makefile SConstruct eometah.kdevelop 
+	eometah.kdevelop.filelist eometah.kdevelop.pcs eometah.kdevses 
+Log Message:
+* a generic interface for metaheuristics using EO operators
+
+
+===================================================================
+File: Doxyfile         	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/Doxyfile,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: Makefile         	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/Makefile,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: SConstruct       	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/SConstruct,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: eometah.kdevelop 	Status: Up-to-date
+
+   Working revision:	1.3	Wed May 23 09:01:57 2007
+   Repository revision:	1.3	/cvsroot/ometah/eometah/eometah.kdevelop,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	nojhan                   	(branch: 1.1.1)
+
+===================================================================
+File: eometah.kdevelop.filelist	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/eometah.kdevelop.filelist,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: eometah.kdevelop.pcs	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/eometah.kdevelop.pcs,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: eometah.kdevses  	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/eometah.kdevses,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at mail.berlios.de  Wed May 23 11:01:58 2007
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Wed, 23 May 2007 11:01:58 +0200
+Subject: [Ometah-devel] CVS update: eometah/src
+Message-ID: <46540306.MailJ67118UUU@sheep.berlios.de>
+
+
+Date:	Wednesday May 23, 2007 @ 9:01
+Author:	nojhan
+
+Update of /cvsroot/ometah/eometah/src
+In directory sheep:/tmp/cvs-serv24079/src
+
+Added Files:
+	eosExceptions.cpp eosExceptions.h eosMetaheuristic.h 
+	eosOperators.h test.cpp 
+Log Message:
+* a generic interface for metaheuristics using EO operators
+
+
+===================================================================
+File: eosExceptions.cpp	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/src/eosExceptions.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: eosExceptions.h  	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/src/eosExceptions.h,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: eosMetaheuristic.h	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:57 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/src/eosMetaheuristic.h,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: eosOperators.h   	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:58 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/src/eosOperators.h,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: test.cpp         	Status: Up-to-date
+
+   Working revision:	1.1	Wed May 23 09:01:58 2007
+   Repository revision:	1.1	/cvsroot/ometah/eometah/src/test.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+

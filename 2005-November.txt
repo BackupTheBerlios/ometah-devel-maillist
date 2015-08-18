@@ -1,0 +1,3054 @@
+From nojhan at berlios.de  Fri Nov  4 17:15:06 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 17:15:06 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <436B890A.MailE301R6XWR@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 16:15
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv18142
+
+Added Files:
+	example_simple.cpp 
+Log Message:
+* simple example of interface
+
+===================================================================
+File: no file example_simple.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Nov  4 16:15:05 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/interface/example_simple.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 17:23:17 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 17:23:17 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <436B8AF5.MailO3C115KLP@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 16:23
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv30614
+
+Modified Files:
+	SConstruct 
+Log Message:
+* add the simple example
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.14	Fri Nov  4 16:23:17 2005
+   Repository revision:	1.14	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 17:24:05 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 17:24:05 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <436B8B25.MailS31AGTA1@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 16:24
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv250
+
+Modified Files:
+	ometah.prj ometah.pws 
+Log Message:
+* new files for simple example
+
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.9	Fri Nov  4 16:24:05 2005
+   Repository revision:	1.9	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.14	Fri Nov  4 16:24:05 2005
+   Repository revision:	1.14	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:12 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:12 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <436B9A2C.MailABC11ERJV@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv13287
+
+Modified Files:
+	AUTHORS README 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: AUTHORS          	Status: Up-to-date
+
+   Working revision:	1.2	Fri Nov  4 17:28:08 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/AUTHORS,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: README           	Status: Up-to-date
+
+   Working revision:	1.2	Fri Nov  4 17:28:08 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/README,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:12 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:12 +0100
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <436B9A2C.MailABJ11JLMX@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv13287/common
+
+Modified Files:
+	SConscript geometry.cpp geometry.hpp itsPoint.cpp itsPoint.hpp 
+	itsSet.cpp itsSet.hpp logic.cpp logic.hpp matrix.cpp 
+	matrix.hpp random.cpp random.hpp string.cpp string.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file SConscript		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file geometry.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/geometry.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file geometry.hpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/common/geometry.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsPoint.cpp		Status: Needs Checkout
+
+   Working revision:	1.4	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/common/itsPoint.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsPoint.hpp		Status: Needs Checkout
+
+   Working revision:	1.4	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/common/itsPoint.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsSet.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/itsSet.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsSet.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/itsSet.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file logic.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/logic.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file logic.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/logic.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file matrix.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/matrix.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file matrix.hpp		Status: Needs Checkout
+
+   Working revision:	1.8	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.8	/cvsroot/ometah/ometah/common/matrix.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file random.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/common/random.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file random.hpp		Status: Needs Checkout
+
+   Working revision:	1.6	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.6	/cvsroot/ometah/ometah/common/random.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file string.cpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/common/string.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file string.hpp		Status: Needs Checkout
+
+   Working revision:	1.5	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.5	/cvsroot/ometah/ometah/common/string.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:12 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:12 +0100
+Subject: [Ometah-devel] CVS update: ometah/communication
+Message-ID: <436B9A2C.MailAC21NSVL8@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication
+In directory sheep:/tmp/cvs-serv13287/communication
+
+Modified Files:
+	SConscript itsCommunication.cpp itsCommunication.hpp 
+	itsCommunicationClient.cpp itsCommunicationClient.hpp 
+	itsCommunicationClient_embedded.cpp 
+	itsCommunicationClient_embedded.hpp itsCommunicationServer.cpp 
+	itsCommunicationServer.hpp itsCommunicationServer_embedded.cpp 
+	itsCommunicationServer_embedded.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file SConscript		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsCommunication.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunication.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunication.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunication.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationClient.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunicationClient.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationClient.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunicationClient.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationClient_embedded.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunicationClient_embedded.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationClient_embedded.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunicationClient_embedded.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationServer.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunicationServer.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationServer.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunicationServer.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationServer_embedded.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunicationServer_embedded.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationServer_embedded.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/communication/itsCommunicationServer_embedded.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:13 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:13 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface/registration
+Message-ID: <436B9A2D.MailACT1C69Y5@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface/registration
+In directory sheep:/tmp/cvs-serv13287/interface/registration
+
+Modified Files:
+	ometah_registration.cpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file ometah_registration.cpp		Status: Needs Checkout
+
+   Working revision:	1.21	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.21	/cvsroot/ometah/ometah/interface/registration/ometah_registration.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/random
+Message-ID: <436B9A33.MailAE3144SCB@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/random
+In directory sheep:/tmp/cvs-serv13287/metaheuristic/random
+
+Modified Files:
+	itsRandom.cpp itsRandom.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file itsRandom.cpp		Status: Needs Checkout
+
+   Working revision:	1.4	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/metaheuristic/random/itsRandom.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsRandom.hpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/random/itsRandom.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem/registration
+Message-ID: <436B9A33.MailAEW1U4FWU@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem/registration
+In directory sheep:/tmp/cvs-serv13287/problem/registration
+
+Modified Files:
+	SConscript itsRegistration.cpp itsRegistration.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file SConscript		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/problem/registration/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsRegistration.cpp		Status: Needs Checkout
+
+   Working revision:	1.13	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.13	/cvsroot/ometah/ometah/problem/registration/itsRegistration.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsRegistration.hpp		Status: Needs Checkout
+
+   Working revision:	1.6	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.6	/cvsroot/ometah/ometah/problem/registration/itsRegistration.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/genetic
+Message-ID: <436B9A33.MailADP115PKF@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/genetic
+In directory sheep:/tmp/cvs-serv13287/metaheuristic/genetic
+
+Modified Files:
+	itsJpGenetic.cpp itsJpGenetic.hpp itsSimpleGenetic.cpp 
+	itsSimpleGenetic.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file itsJpGenetic.cpp		Status: Needs Checkout
+
+   Working revision:	1.7	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.7	/cvsroot/ometah/ometah/metaheuristic/genetic/itsJpGenetic.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsJpGenetic.hpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/genetic/itsJpGenetic.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSimpleGenetic.cpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:14 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/genetic/itsSimpleGenetic.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSimpleGenetic.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:18 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/genetic/itsSimpleGenetic.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:13 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:13 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/antcolony
+Message-ID: <436B9A2D.MailAD51199PR@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/antcolony
+In directory sheep:/tmp/cvs-serv13287/metaheuristic/antcolony
+
+Modified Files:
+	itsHybridContinuousInteractingAntColony.cpp 
+	itsHybridContinuousInteractingAntColony.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file itsHybridContinuousInteractingAntColony.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/antcolony/itsHybridContinuousInteractingAntColony.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsHybridContinuousInteractingAntColony.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/antcolony/itsHybridContinuousInteractingAntColony.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:13 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:13 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <436B9A2D.MailACK1VG10X@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv13287/interface
+
+Modified Files:
+	SConscript itsArgument.cpp itsArgument.hpp ometah.cpp 
+	ometah.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file SConscript		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/interface/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsArgument.cpp		Status: Needs Checkout
+
+   Working revision:	1.13	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.13	/cvsroot/ometah/ometah/interface/itsArgument.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsArgument.hpp		Status: Needs Checkout
+
+   Working revision:	1.8	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.8	/cvsroot/ometah/ometah/interface/itsArgument.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.19	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.19	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.hpp		Status: Needs Checkout
+
+   Working revision:	1.13	Fri Nov  4 17:28:12 2005
+   Repository revision:	1.13	/cvsroot/ometah/ometah/interface/ometah.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/neldermead
+Message-ID: <436B9A33.MailADX11FOXR@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/neldermead
+In directory sheep:/tmp/cvs-serv13287/metaheuristic/neldermead
+
+Modified Files:
+	itsNelderMead.cpp itsNelderMead.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file itsNelderMead.cpp		Status: Needs Checkout
+
+   Working revision:	1.12	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.12	/cvsroot/ometah/ometah/metaheuristic/neldermead/itsNelderMead.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsNelderMead.hpp		Status: Needs Checkout
+
+   Working revision:	1.8	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.8	/cvsroot/ometah/ometah/metaheuristic/neldermead/itsNelderMead.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:13 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:13 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/estimation
+Message-ID: <436B9A2D.MailADB1153IH@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/estimation
+In directory sheep:/tmp/cvs-serv13287/metaheuristic/estimation
+
+Modified Files:
+	SConscript itsEstimationOfDistribution.cpp 
+	itsEstimationOfDistribution.hpp 
+	itsHybridEstimationOfDistribution.cpp 
+	itsHybridEstimationOfDistribution.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file SConscript		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/estimation/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsEstimationOfDistribution.cpp		Status: Needs Checkout
+
+   Working revision:	1.7	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.7	/cvsroot/ometah/ometah/metaheuristic/estimation/itsEstimationOfDistribution.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsEstimationOfDistribution.hpp		Status: Needs Checkout
+
+   Working revision:	1.4	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/metaheuristic/estimation/itsEstimationOfDistribution.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsHybridEstimationOfDistribution.cpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/estimation/itsHybridEstimationOfDistribution.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsHybridEstimationOfDistribution.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/estimation/itsHybridEstimationOfDistribution.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem/CEC05
+Message-ID: <436B9A33.MailAEN11O9QK@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem/CEC05
+In directory sheep:/tmp/cvs-serv13287/problem/CEC05
+
+Modified Files:
+	SConscript itsCEC05_SSRPO_Base.cpp itsCEC05_SSRPO_Base.hpp 
+	itsCEC05_SSRPO_Problems.cpp itsCEC05_SSRPO_Problems.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file SConscript		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/problem/CEC05/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsCEC05_SSRPO_Base.cpp		Status: Needs Checkout
+
+   Working revision:	1.4	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/problem/CEC05/itsCEC05_SSRPO_Base.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCEC05_SSRPO_Base.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/problem/CEC05/itsCEC05_SSRPO_Base.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCEC05_SSRPO_Problems.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/problem/CEC05/itsCEC05_SSRPO_Problems.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCEC05_SSRPO_Problems.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/problem/CEC05/itsCEC05_SSRPO_Problems.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:13 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:13 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <436B9A2D.MailACY1104VF@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv13287/metaheuristic
+
+Modified Files:
+	SConscript itsMetaheuristic.cpp itsMetaheuristic.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file SConscript		Status: Needs Checkout
+
+   Working revision:	1.11	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.11	/cvsroot/ometah/ometah/metaheuristic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsMetaheuristic.cpp		Status: Needs Checkout
+
+   Working revision:	1.21	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.21	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsMetaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.15	Fri Nov  4 17:28:13 2005
+   Repository revision:	1.15	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/sampling
+Message-ID: <436B9A33.MailAE91191YR@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/sampling
+In directory sheep:/tmp/cvs-serv13287/metaheuristic/sampling
+
+Modified Files:
+	itsGridSampling.cpp itsGridSampling.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file itsGridSampling.cpp		Status: Needs Checkout
+
+   Working revision:	1.12	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.12	/cvsroot/ometah/ometah/metaheuristic/sampling/itsGridSampling.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsGridSampling.hpp		Status: Needs Checkout
+
+   Working revision:	1.9	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.9	/cvsroot/ometah/ometah/metaheuristic/sampling/itsGridSampling.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:28:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:28:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem
+Message-ID: <436B9A33.MailAEG1L26ET@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem
+In directory sheep:/tmp/cvs-serv13287/problem
+
+Modified Files:
+	SConscript itsProblem.cpp itsProblem.hpp 
+Log Message:
+* copyright to the FSF
+
+===================================================================
+File: no file SConscript		Status: Needs Checkout
+
+   Working revision:	1.2	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/problem/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsProblem.cpp		Status: Needs Checkout
+
+   Working revision:	1.9	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.9	/cvsroot/ometah/ometah/problem/itsProblem.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsProblem.hpp		Status: Needs Checkout
+
+   Working revision:	1.4	Fri Nov  4 17:28:19 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/problem/itsProblem.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 18:56:52 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 18:56:52 +0100
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <436BA0E4.Mail3E811XQ8X@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 17:56
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv4338/common
+
+Modified Files:
+	string.hpp 
+Log Message:
+* fix warning with gcc4
+
+===================================================================
+File: no file string.hpp		Status: Needs Checkout
+
+   Working revision:	1.6	Fri Nov  4 17:56:51 2005
+   Repository revision:	1.6	/cvsroot/ometah/ometah/common/string.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 19:00:22 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 19:00:22 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem
+Message-ID: <436BA1B6.Mail3UI114SWV@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 18:00
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem
+In directory sheep:/tmp/cvs-serv4858/problem
+
+Modified Files:
+	itsProblem.hpp 
+Log Message:
+* fix non-virtual destructor warning with gcc4
+
+===================================================================
+File: no file itsProblem.hpp		Status: Needs Checkout
+
+   Working revision:	1.5	Fri Nov  4 18:00:21 2005
+   Repository revision:	1.5	/cvsroot/ometah/ometah/problem/itsProblem.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 19:00:21 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 19:00:21 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <436BA1B5.Mail3UB11A3H8@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 18:00
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv4858/metaheuristic
+
+Modified Files:
+	itsMetaheuristic.hpp 
+Log Message:
+* fix non-virtual destructor warning with gcc4
+
+===================================================================
+File: no file itsMetaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.16	Fri Nov  4 18:00:21 2005
+   Repository revision:	1.16	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 19:00:21 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 19:00:21 +0100
+Subject: [Ometah-devel] CVS update: ometah/communication
+Message-ID: <436BA1B5.Mail3U411TG58@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 18:00
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication
+In directory sheep:/tmp/cvs-serv4858/communication
+
+Modified Files:
+	itsCommunicationClient.hpp itsCommunicationServer.hpp 
+Log Message:
+* fix non-virtual destructor warning with gcc4
+
+===================================================================
+File: no file itsCommunicationClient.hpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 18:00:20 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/communication/itsCommunicationClient.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationServer.hpp		Status: Needs Checkout
+
+   Working revision:	1.3	Fri Nov  4 18:00:20 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/communication/itsCommunicationServer.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 21:57:33 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 21:57:33 +0100
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <436BCB3D.MailFB811RUP4@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 20:57
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv19728/common
+
+Modified Files:
+	matrix.hpp 
+Log Message:
+* fix an error on ostringstream operators
+
+===================================================================
+File: no file matrix.hpp		Status: Needs Checkout
+
+   Working revision:	1.9	Fri Nov  4 20:57:33 2005
+   Repository revision:	1.9	/cvsroot/ometah/ometah/common/matrix.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 22:03:00 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 22:03:00 +0100
+Subject: [Ometah-devel] CVS update: ometah/communication
+Message-ID: <436BCC84.MailFKC12R5Z6@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 21:03
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication
+In directory sheep:/tmp/cvs-serv20149/communication
+
+Modified Files:
+	itsCommunicationClient.hpp itsCommunicationServer.hpp 
+Log Message:
+* fix warning on virtual destructors
+
+===================================================================
+File: no file itsCommunicationClient.hpp		Status: Needs Checkout
+
+   Working revision:	1.4	Fri Nov  4 21:03:00 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/communication/itsCommunicationClient.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsCommunicationServer.hpp		Status: Needs Checkout
+
+   Working revision:	1.4	Fri Nov  4 21:03:00 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/communication/itsCommunicationServer.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 22:03:00 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 22:03:00 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <436BCC84.MailFKL1BYRUM@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 21:03
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv20149/metaheuristic
+
+Modified Files:
+	itsMetaheuristic.hpp 
+Log Message:
+* fix warning on virtual destructors
+
+===================================================================
+File: no file itsMetaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.17	Fri Nov  4 21:03:00 2005
+   Repository revision:	1.17	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 22:03:00 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 22:03:00 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem
+Message-ID: <436BCC84.MailFKT1TNDWV@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 21:03
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem
+In directory sheep:/tmp/cvs-serv20149/problem
+
+Modified Files:
+	itsProblem.hpp 
+Log Message:
+* fix warning on virtual destructors
+
+===================================================================
+File: no file itsProblem.hpp		Status: Needs Checkout
+
+   Working revision:	1.6	Fri Nov  4 21:03:00 2005
+   Repository revision:	1.6	/cvsroot/ometah/ometah/problem/itsProblem.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 22:36:21 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 22:36:21 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <436BD455.MailHIS1RBVH9@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 21:36
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv22670/interface
+
+Modified Files:
+	itsArgument.hpp ometah.hpp 
+Log Message:
+* version 0.2.2
+
+===================================================================
+File: no file itsArgument.hpp		Status: Needs Checkout
+
+   Working revision:	1.9	Fri Nov  4 21:36:21 2005
+   Repository revision:	1.9	/cvsroot/ometah/ometah/interface/itsArgument.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.hpp		Status: Needs Checkout
+
+   Working revision:	1.14	Fri Nov  4 21:36:21 2005
+   Repository revision:	1.14	/cvsroot/ometah/ometah/interface/ometah.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov  4 22:36:21 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Fri, 04 Nov 2005 22:36:21 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <436BD455.MailHIM11UGSE@sheep.berlios.de>
+
+Date:	Friday November 4, 2005 @ 21:36
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv22670
+
+Modified Files:
+	ometah.prj 
+Log Message:
+* version 0.2.2
+
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.10	Fri Nov  4 21:36:20 2005
+   Repository revision:	1.10	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:14 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:14 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <436C8CC2.Mail9I511DAPG@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv12224
+
+Modified Files:
+	SConstruct ometah.prj ometah.pws 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.15	Sat Nov  5 10:43:06 2005
+   Repository revision:	1.15	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.11	Sat Nov  5 10:43:06 2005
+   Repository revision:	1.11	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.15	Sat Nov  5 10:43:04 2005
+   Repository revision:	1.15	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:15 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:15 +0100
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <436C8CC3.Mail9IM1JMAJQ@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv12224/common
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.3	/cvsroot/ometah/ometah/common/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:16 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:16 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <436C8CC4.Mail9J311I9C3@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv12224/metaheuristic
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.12	/cvsroot/ometah/ometah/metaheuristic/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:17 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:17 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/estimation
+Message-ID: <436C8CC5.Mail9JE11R8QZ@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/estimation
+In directory sheep:/tmp/cvs-serv12224/metaheuristic/estimation
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.4	/cvsroot/ometah/ometah/metaheuristic/estimation/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:18 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:18 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/sampling
+Message-ID: <436C8CC6.Mail9K31H5B50@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/sampling
+In directory sheep:/tmp/cvs-serv12224/metaheuristic/sampling
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/sampling/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:17 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:17 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/genetic
+Message-ID: <436C8CC5.Mail9JJ11W6JJ@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/genetic
+In directory sheep:/tmp/cvs-serv12224/metaheuristic/genetic
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/genetic/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:16 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:16 +0100
+Subject: [Ometah-devel] CVS update: ometah/communication
+Message-ID: <436C8CC4.Mail9IT11O7JU@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/communication
+In directory sheep:/tmp/cvs-serv12224/communication
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.3	/cvsroot/ometah/ometah/communication/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:16 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:16 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/antcolony
+Message-ID: <436C8CC4.Mail9J81314YG@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/antcolony
+In directory sheep:/tmp/cvs-serv12224/metaheuristic/antcolony
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/antcolony/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:18 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:18 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/random
+Message-ID: <436C8CC6.Mail9JW11LXOV@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/random
+In directory sheep:/tmp/cvs-serv12224/metaheuristic/random
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/random/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:17 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:17 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/neldermead
+Message-ID: <436C8CC5.Mail9JP17F0RX@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/neldermead
+In directory sheep:/tmp/cvs-serv12224/metaheuristic/neldermead
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.2	/cvsroot/ometah/ometah/metaheuristic/neldermead/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:18 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:18 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem
+Message-ID: <436C8CC6.Mail9K81HQC02@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem
+In directory sheep:/tmp/cvs-serv12224/problem
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.3	/cvsroot/ometah/ometah/problem/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:16 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:16 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <436C8CC4.Mail9IY15OV9A@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv12224/interface
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.4	/cvsroot/ometah/ometah/interface/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem/CEC05
+Message-ID: <436C8CC7.Mail9KD1A9PIK@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem/CEC05
+In directory sheep:/tmp/cvs-serv12224/problem/CEC05
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.3	/cvsroot/ometah/ometah/problem/CEC05/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:43:19 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:43:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem/registration
+Message-ID: <436C8CC7.Mail9KI1OJ2ZJ@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:43
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem/registration
+In directory sheep:/tmp/cvs-serv12224/problem/registration
+
+Removed Files:
+	SConscript 
+Log Message:
+* simplified SConstruct tree
+* using shared library instead of static ones
+* removing all SConscripts files
+
+===================================================================
+File: no file SConscript		Status: Up-to-date
+
+   Working revision:	No entry for SConscript
+   Repository revision:	1.4	/cvsroot/ometah/ometah/problem/registration/Attic/SConscript,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 11:47:10 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 11:47:10 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <436C8DAE.Mail9VJ11S2ZY@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 10:47
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv12749
+
+Modified Files:
+	ometah.prj 
+Log Message:
+* update project files list
+
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.12	Sat Nov  5 10:47:09 2005
+   Repository revision:	1.12	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Sat Nov  5 17:52:52 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 17:52:52 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <436CE364.MailGDY1OZETO@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 16:52
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv21196
+
+Modified Files:
+	SConstruct 
+Log Message:
+* choice between static or shared builds
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.16	Sat Nov  5 16:52:52 2005
+   Repository revision:	1.16	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Sat Nov  5 22:14:02 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 22:14:02 +0100
+Subject: [Ometah-devel] CVS update: registration
+Message-ID: <436D209A.MailM7X11LSPJ@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 21:14
+Author:	nojhan
+
+Update of /cvsroot/ometah/registration
+In directory sheep:/tmp/cvs-serv28766
+
+Log Message:
+* first import
+
+
+Status:
+
+Vendor Tag:	V_1_1_1
+Release Tags:	start
+		
+N registration/SConstruct
+N registration/itsRegistration.cpp
+N registration/itsRegistration.hpp
+N registration/ometah_registration.cpp
+N registration/COPYING
+
+No conflicts created by this import
+
+[input file was '-']
+
+
+From nojhan at berlios.de  Sat Nov  5 22:21:45 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 22:21:45 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <436D2269.MailMLC11GQEV@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 21:21
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv29257
+
+Modified Files:
+	SConstruct 
+Log Message:
+
+* moving registration to a new module
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.17	Sat Nov  5 21:21:44 2005
+   Repository revision:	1.17	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Sat Nov  5 22:21:45 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 22:21:45 +0100
+Subject: [Ometah-devel] CVS update: ometah/problem/registration
+Message-ID: <436D2269.MailMLR11FYJM@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 21:21
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/problem/registration
+In directory sheep:/tmp/cvs-serv29257/problem/registration
+
+Removed Files:
+	COPYING itsRegistration.cpp itsRegistration.hpp 
+Log Message:
+
+* moving registration to a new module
+
+===================================================================
+File: no file COPYING		Status: Up-to-date
+
+   Working revision:	No entry for COPYING
+   Repository revision:	1.2	/cvsroot/ometah/ometah/problem/registration/Attic/COPYING,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsRegistration.cpp		Status: Up-to-date
+
+   Working revision:	No entry for itsRegistration.cpp
+   Repository revision:	1.14	/cvsroot/ometah/ometah/problem/registration/Attic/itsRegistration.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsRegistration.hpp		Status: Up-to-date
+
+   Working revision:	No entry for itsRegistration.hpp
+   Repository revision:	1.7	/cvsroot/ometah/ometah/problem/registration/Attic/itsRegistration.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 22:21:45 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 22:21:45 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface/registration
+Message-ID: <436D2269.MailMLI11UP36@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 21:21
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface/registration
+In directory sheep:/tmp/cvs-serv29257/interface/registration
+
+Removed Files:
+	COPYING ometah_registration.cpp 
+Log Message:
+
+* moving registration to a new module
+
+===================================================================
+File: no file COPYING		Status: Up-to-date
+
+   Working revision:	No entry for COPYING
+   Repository revision:	1.2	/cvsroot/ometah/ometah/interface/registration/Attic/COPYING,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file ometah_registration.cpp		Status: Up-to-date
+
+   Working revision:	No entry for ometah_registration.cpp
+   Repository revision:	1.22	/cvsroot/ometah/ometah/interface/registration/Attic/ometah_registration.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Nov  5 22:59:18 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Sat, 05 Nov 2005 22:59:18 +0100
+Subject: [Ometah-devel] CVS update: registration
+Message-ID: <436D2B36.MailFMK1HYSUR@sheep.berlios.de>
+
+Date:	Saturday November 5, 2005 @ 21:59
+Author:	nojhan
+
+Update of /cvsroot/ometah/registration
+In directory sheep:/tmp/cvs-serv20226
+
+Added Files:
+	ometahregistration.prj 
+Log Message:
+* anjuta project file
+
+===================================================================
+File: ometahregistration.prj	Status: Up-to-date
+
+   Working revision:	1.1	Sat Nov  5 21:59:17 2005
+   Repository revision:	1.1	/cvsroot/ometah/registration/ometahregistration.prj,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Tue Nov  8 16:11:48 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Tue, 08 Nov 2005 16:11:48 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <4370C034.MailSO1ZKQOH@sheep.berlios.de>
+
+Date:	Tuesday November 8, 2005 @ 15:11
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv1006
+
+Modified Files:
+	SConstruct 
+Log Message:
+* detailled help screen
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.18	Tue Nov  8 15:11:48 2005
+   Repository revision:	1.18	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Nov  8 16:14:17 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Tue, 08 Nov 2005 16:14:17 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <4370C0C9.MailWB115751@sheep.berlios.de>
+
+Date:	Tuesday November 8, 2005 @ 15:14
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv1133
+
+Modified Files:
+	SConstruct 
+Log Message:
+* deletion of the registration part
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.19	Tue Nov  8 15:14:17 2005
+   Repository revision:	1.19	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Nov  8 16:27:41 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Tue, 08 Nov 2005 16:27:41 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <4370C3ED.Mail1Z21S3EK5@sheep.berlios.de>
+
+Date:	Tuesday November 8, 2005 @ 15:27
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv2510
+
+Modified Files:
+	SConstruct 
+Log Message:
+* debug=no by default
+* no more --ffast-math flag
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.20	Tue Nov  8 15:27:41 2005
+   Repository revision:	1.20	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Nov  8 17:45:27 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Tue, 08 Nov 2005 17:45:27 +0100
+Subject: [Ometah-devel] CVS update: registration
+Message-ID: <4370D627.Mail7AN14YX32@sheep.berlios.de>
+
+Date:	Tuesday November 8, 2005 @ 16:45
+Author:	nojhan
+
+Update of /cvsroot/ometah/registration
+In directory sheep:/tmp/cvs-serv9432
+
+Modified Files:
+	itsRegistration.cpp itsRegistration.hpp 
+Log Message:
+* preparation for a new objective function
+===================================================================
+File: no file itsRegistration.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Tue Nov  8 16:45:27 2005
+   Repository revision:	1.2	/cvsroot/ometah/registration/itsRegistration.cpp,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	V_1_1_1                  	(branch: 1.1.1)
+
+===================================================================
+File: no file itsRegistration.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Tue Nov  8 16:45:27 2005
+   Repository revision:	1.2	/cvsroot/ometah/registration/itsRegistration.hpp,v
+
+   Existing Tags:
+	start                    	(revision: 1.1.1.1)
+	V_1_1_1                  	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Nov  9 11:53:04 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Wed, 09 Nov 2005 11:53:04 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <4371D510.MailOHT11P68O@sheep.berlios.de>
+
+Date:	Wednesday November 9, 2005 @ 10:53
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv31702
+
+Modified Files:
+	ometah.prj ometah.pws 
+Log Message:
+* fix bug with non-portable random function
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.13	Wed Nov  9 10:53:03 2005
+   Repository revision:	1.13	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.16	Wed Nov  9 10:52:53 2005
+   Repository revision:	1.16	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Nov  9 11:53:03 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Wed, 09 Nov 2005 11:53:03 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/genetic
+Message-ID: <4371D50F.MailOHN11RCWC@sheep.berlios.de>
+
+Date:	Wednesday November 9, 2005 @ 10:53
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/genetic
+In directory sheep:/tmp/cvs-serv31702/metaheuristic/genetic
+
+Modified Files:
+	itsJpGenetic.cpp itsSimpleGenetic.cpp 
+Log Message:
+* fix bug with non-portable random function
+===================================================================
+File: no file itsJpGenetic.cpp		Status: Needs Checkout
+
+   Working revision:	1.8	Wed Nov  9 10:53:03 2005
+   Repository revision:	1.8	/cvsroot/ometah/ometah/metaheuristic/genetic/itsJpGenetic.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSimpleGenetic.cpp		Status: Needs Checkout
+
+   Working revision:	1.4	Wed Nov  9 10:53:03 2005
+   Repository revision:	1.4	/cvsroot/ometah/ometah/metaheuristic/genetic/itsSimpleGenetic.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Thu Nov 10 10:48:03 2005
+From: nojhan at berlios.de (NoJhan at BerliOS)
+Date: Thu, 10 Nov 2005 10:48:03 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <43731753.Mail2KQ1GNFSV@sheep.berlios.de>
+
+Date:	Thursday November 10, 2005 @ 9:48
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv3314
+
+Modified Files:
+	itsMetaheuristic.cpp 
+Log Message:
+* bugfix : empty sample with GS algo
+===================================================================
+File: no file itsMetaheuristic.cpp		Status: Needs Checkout
+
+   Working revision:	1.22	Thu Nov 10 09:48:01 2005
+   Repository revision:	1.22	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Nov 16 19:33:34 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 16 Nov 2005 19:33:34 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <437B7B7E.MailOHC11T7BA@sheep.berlios.de>
+
+Date:	Wednesday November 16, 2005 @ 18:33
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv31602
+
+Modified Files:
+	SConstruct 
+Log Message:
+* static library construction
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.21	Wed Nov 16 18:33:27 2005
+   Repository revision:	1.21	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Nov 16 19:41:12 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 16 Nov 2005 19:41:12 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <437B7D48.Mail1WV11G1IR@sheep.berlios.de>
+
+Date:	Wednesday November 16, 2005 @ 18:41
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv2273
+
+Modified Files:
+	SConstruct 
+Log Message:
+* link with the correct library
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.22	Wed Nov 16 18:41:02 2005
+   Repository revision:	1.22	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Nov 22 13:54:49 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 22 Nov 2005 13:54:49 +0100
+Subject: [Ometah-devel] CVS update: ometah/doc
+Message-ID: <43831519.Mail4JM11LC04@sheep.berlios.de>
+
+Date:	Tuesday November 22, 2005 @ 12:54
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/doc
+In directory sheep:/tmp/cvs-serv5721
+
+Modified Files:
+	user_guide.tex 
+Log Message:
+* doc start
+
+===================================================================
+File: user_guide.tex   	Status: Up-to-date
+
+   Working revision:	1.2	Tue Nov 22 12:54:44 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/doc/user_guide.tex,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Tue Nov 22 13:55:35 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 22 Nov 2005 13:55:35 +0100
+Subject: [Ometah-devel] CVS update: ometah/doc
+Message-ID: <43831547.Mail4SM11S4PY@sheep.berlios.de>
+
+Date:	Tuesday November 22, 2005 @ 12:55
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/doc
+In directory sheep:/tmp/cvs-serv6153
+
+Added Files:
+	als_manipulating.dia als_template.dia ometah_communication.dia 
+	ometah_set.dia 
+Log Message:
+* figures
+
+===================================================================
+File: als_manipulating.dia	Status: Up-to-date
+
+   Working revision:	1.1	Tue Nov 22 12:55:35 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/doc/als_manipulating.dia,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: als_template.dia 	Status: Up-to-date
+
+   Working revision:	1.1	Tue Nov 22 12:55:35 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/doc/als_template.dia,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometah_communication.dia	Status: Up-to-date
+
+   Working revision:	1.1	Tue Nov 22 12:55:35 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/doc/ometah_communication.dia,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometah_set.dia   	Status: Up-to-date
+
+   Working revision:	1.1	Tue Nov 22 12:55:35 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/doc/ometah_set.dia,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Thu Nov 24 23:19:19 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 24 Nov 2005 23:19:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <43863C67.MailCL511B5G0@sheep.berlios.de>
+
+Date:	Thursday November 24, 2005 @ 22:19
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv16288
+
+Modified Files:
+	itsPoint.cpp 
+Log Message:
+* missing space
+===================================================================
+File: no file itsPoint.cpp		Status: Needs Checkout
+
+   Working revision:	1.5	Thu Nov 24 22:19:17 2005
+   Repository revision:	1.5	/cvsroot/ometah/ometah/common/itsPoint.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Thu Nov 24 23:22:01 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 24 Nov 2005 23:22:01 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <43863D09.MailCVQ1163PQ@sheep.berlios.de>
+
+Date:	Thursday November 24, 2005 @ 22:22
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv16671
+
+Modified Files:
+	itsArgument.cpp itsArgument.hpp 
+Log Message:
+* version handle
+===================================================================
+File: no file itsArgument.cpp		Status: Needs Checkout
+
+   Working revision:	1.14	Thu Nov 24 22:22:01 2005
+   Repository revision:	1.14	/cvsroot/ometah/ometah/interface/itsArgument.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsArgument.hpp		Status: Needs Checkout
+
+   Working revision:	1.10	Thu Nov 24 22:22:01 2005
+   Repository revision:	1.10	/cvsroot/ometah/ometah/interface/itsArgument.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Thu Nov 24 23:23:45 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 24 Nov 2005 23:23:45 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <43863D71.MailD301VQAGL@sheep.berlios.de>
+
+Date:	Thursday November 24, 2005 @ 22:23
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv16933
+
+Modified Files:
+	ometah.cpp ometah.hpp 
+Log Message:
+* version handling in the interface
+* add a simulated annealing
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.20	Thu Nov 24 22:23:44 2005
+   Repository revision:	1.20	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.hpp		Status: Needs Checkout
+
+   Working revision:	1.15	Thu Nov 24 22:23:44 2005
+   Repository revision:	1.15	/cvsroot/ometah/ometah/interface/ometah.hpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Thu Nov 24 23:24:25 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 24 Nov 2005 23:24:25 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <43863D99.MailD5U1CVUCG@sheep.berlios.de>
+
+Date:	Thursday November 24, 2005 @ 22:24
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv17035
+
+Modified Files:
+	itsMetaheuristic.cpp 
+Log Message:
+* warning fix
+* coding style
+===================================================================
+File: no file itsMetaheuristic.cpp		Status: Needs Checkout
+
+   Working revision:	1.23	Thu Nov 24 22:24:25 2005
+   Repository revision:	1.23	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.cpp,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Thu Nov 24 23:25:27 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 24 Nov 2005 23:25:27 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43863DD7.MailD861CXZ34@sheep.berlios.de>
+
+Date:	Thursday November 24, 2005 @ 22:25
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv17119
+
+Modified Files:
+	SConstruct 
+Log Message:
+* simulated annealing
+* target group
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.23	Thu Nov 24 22:25:27 2005
+   Repository revision:	1.23	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Thu Nov 24 23:28:19 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 24 Nov 2005 23:28:19 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/annealing
+Message-ID: <43863E83.MailDEI116FQH@sheep.berlios.de>
+
+Date:	Thursday November 24, 2005 @ 22:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/annealing
+In directory sheep:/tmp/cvs-serv17348/annealing
+
+Log Message:
+Directory /cvsroot/ometah/ometah/metaheuristic/annealing added to the repository
+
+[input file was '-']
+
+
+From nojhan at berlios.de  Thu Nov 24 23:28:48 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 24 Nov 2005 23:28:48 +0100
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/annealing
+Message-ID: <43863EA0.MailDGK1JQZ24@sheep.berlios.de>
+
+Date:	Thursday November 24, 2005 @ 22:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/annealing
+In directory sheep:/tmp/cvs-serv17421
+
+Added Files:
+	itsSimulatedAnnealing.cpp itsSimulatedAnnealing.hpp 
+Log Message:
+* simulated annealing
+===================================================================
+File: no file itsSimulatedAnnealing.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Thu Nov 24 22:28:48 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/metaheuristic/annealing/itsSimulatedAnnealing.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file itsSimulatedAnnealing.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Thu Nov 24 22:28:48 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/metaheuristic/annealing/itsSimulatedAnnealing.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Thu Nov 24 23:30:08 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Thu, 24 Nov 2005 23:30:08 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43863EF0.MailDKS1JH5WJ@sheep.berlios.de>
+
+Date:	Thursday November 24, 2005 @ 22:30
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv17573
+
+Modified Files:
+	ometah.prj ometah.pws 
+Log Message:
+* simulated annealing
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.14	Thu Nov 24 22:30:07 2005
+   Repository revision:	1.14	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.17	Thu Nov 24 22:30:07 2005
+   Repository revision:	1.17	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov 25 19:22:21 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 25 Nov 2005 19:22:21 +0100
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <4387565D.Mail3ZU11C9L7@sheep.berlios.de>
+
+Date:	Friday November 25, 2005 @ 18:22
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv5110
+
+Removed Files:
+	example_simple.cpp 
+Log Message:
+* example moved to an example directory
+
+===================================================================
+File: no file example_simple.cpp		Status: Up-to-date
+
+   Working revision:	No entry for example_simple.cpp
+   Repository revision:	1.2	/cvsroot/ometah/ometah/interface/Attic/example_simple.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov 25 19:23:47 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 25 Nov 2005 19:23:47 +0100
+Subject: [Ometah-devel] CVS update: ometah/examples
+Message-ID: <438756B3.Mail50Y11NF5J@sheep.berlios.de>
+
+Date:	Friday November 25, 2005 @ 18:23
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/examples
+In directory sheep:/tmp/cvs-serv6456/examples
+
+Log Message:
+Directory /cvsroot/ometah/ometah/examples added to the repository
+
+[input file was '-']
+
+
+From nojhan at berlios.de  Fri Nov 25 19:24:14 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 25 Nov 2005 19:24:14 +0100
+Subject: [Ometah-devel] CVS update: ometah/examples
+Message-ID: <438756CE.Mail57Y12NFPJ@sheep.berlios.de>
+
+Date:	Friday November 25, 2005 @ 18:24
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/examples
+In directory sheep:/tmp/cvs-serv6623
+
+Added Files:
+	SConstruct example_interface.cpp example_metaheuristic.cpp 
+	example_metaheuristic.hpp example_problem.cpp 
+	example_problem.hpp example_simple.cpp 
+Log Message:
+* examples
+
+===================================================================
+File: SConstruct       	Status: Up-to-date
+
+   Working revision:	1.1	Fri Nov 25 18:24:14 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/examples/SConstruct,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file example_interface.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Nov 25 18:24:14 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/examples/example_interface.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file example_metaheuristic.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Nov 25 18:24:14 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/examples/example_metaheuristic.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file example_metaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Nov 25 18:24:14 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/examples/example_metaheuristic.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file example_problem.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Nov 25 18:24:14 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/examples/example_problem.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file example_problem.hpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Nov 25 18:24:14 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/examples/example_problem.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: no file example_simple.cpp		Status: Needs Checkout
+
+   Working revision:	1.1	Fri Nov 25 18:24:14 2005
+   Repository revision:	1.1	/cvsroot/ometah/ometah/examples/example_simple.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Nov 25 19:30:58 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 25 Nov 2005 19:30:58 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43875862.Mail84A15F1G2@sheep.berlios.de>
+
+Date:	Friday November 25, 2005 @ 18:30
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv10498
+
+Modified Files:
+	SConstruct 
+Log Message:
+* examples in a specific directory
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.24	Fri Nov 25 18:30:56 2005
+   Repository revision:	1.24	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Fri Nov 25 19:32:37 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 25 Nov 2005 19:32:37 +0100
+Subject: [Ometah-devel] CVS update: ometah/examples
+Message-ID: <438758C5.Mail87E1O12UL@sheep.berlios.de>
+
+Date:	Friday November 25, 2005 @ 18:32
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/examples
+In directory sheep:/tmp/cvs-serv10608
+
+Removed Files:
+	example_simple.cpp 
+Log Message:
+* wrong file
+
+===================================================================
+File: no file example_simple.cpp		Status: Up-to-date
+
+   Working revision:	No entry for example_simple.cpp
+   Repository revision:	1.2	/cvsroot/ometah/ometah/examples/Attic/example_simple.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Nov 30 22:02:32 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 30 Nov 2005 22:02:32 +0100
+Subject: [Ometah-devel] CVS update: ometah/doc
+Message-ID: <438E1368.MailGF41JSHTF@sheep.berlios.de>
+
+Date:	Wednesday November 30, 2005 @ 21:02
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/doc
+In directory sheep:/tmp/cvs-serv21257
+
+Modified Files:
+	user_guide.tex 
+Log Message:
+* howtos
+===================================================================
+File: user_guide.tex   	Status: Up-to-date
+
+   Working revision:	1.3	Wed Nov 30 21:02:31 2005
+   Repository revision:	1.3	/cvsroot/ometah/ometah/doc/user_guide.tex,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Nov 30 22:19:11 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 30 Nov 2005 22:19:11 +0100
+Subject: [Ometah-devel] CVS update: ometah/examples
+Message-ID: <438E174F.MailHD911K127@sheep.berlios.de>
+
+Date:	Wednesday November 30, 2005 @ 21:19
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/examples
+In directory sheep:/tmp/cvs-serv22486
+
+Modified Files:
+	example_interface.cpp 
+Log Message:
+* unused includes
+===================================================================
+File: no file example_interface.cpp		Status: Needs Checkout
+
+   Working revision:	1.2	Wed Nov 30 21:19:10 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/examples/example_interface.cpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Nov 30 22:28:20 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 30 Nov 2005 22:28:20 +0100
+Subject: [Ometah-devel] CVS update: ometah/examples
+Message-ID: <438E1974.MailIOB11NVDR@sheep.berlios.de>
+
+Date:	Wednesday November 30, 2005 @ 21:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/examples
+In directory sheep:/tmp/cvs-serv24160
+
+Modified Files:
+	example_metaheuristic.hpp 
+Log Message:
+* minor typo
+===================================================================
+File: no file example_metaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.2	Wed Nov 30 21:28:20 2005
+   Repository revision:	1.2	/cvsroot/ometah/ometah/examples/example_metaheuristic.hpp,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Wed Nov 30 22:33:27 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 30 Nov 2005 22:33:27 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <438E1AA7.MailJD816RINF@sheep.berlios.de>
+
+Date:	Wednesday November 30, 2005 @ 21:33
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv25071
+
+Modified Files:
+	SConstruct 
+Log Message:
+* help fix
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.25	Wed Nov 30 21:33:27 2005
+   Repository revision:	1.25	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at berlios.de  Wed Nov 30 22:34:04 2005
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Wed, 30 Nov 2005 22:34:04 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <438E1ACC.MailJFX11XI69@sheep.berlios.de>
+
+Date:	Wednesday November 30, 2005 @ 21:34
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv25174
+
+Modified Files:
+	ometah.prj ometah.pws 
+Log Message:
+* update
+===================================================================
+File: no file ometah.prj		Status: Needs Checkout
+
+   Working revision:	1.15	Wed Nov 30 21:34:03 2005
+   Repository revision:	1.15	/cvsroot/ometah/ometah/ometah.prj,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: ometah.pws       	Status: Up-to-date
+
+   Working revision:	1.18	Wed Nov 30 21:34:03 2005
+   Repository revision:	1.18	/cvsroot/ometah/ometah/ometah.pws,v
+
+   Existing Tags:
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+

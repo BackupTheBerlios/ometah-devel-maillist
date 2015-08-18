@@ -1,0 +1,1006 @@
+From nojhan at berlios.de  Fri Jan 20 23:03:42 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 20 Jan 2006 23:03:42 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43D15E3E.MailKSZ114QXO@sheep.berlios.de>
+
+Date:	Friday January 20, 2006 @ 22:03
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv26941/plugins
+
+Log Message:
+Directory /cvsroot/ometah/ometahlab/plugins added to the repository
+
+[input file was '-']
+
+
+From nojhan at berlios.de  Fri Jan 20 23:06:11 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 20 Jan 2006 23:06:11 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43D15ED3.MailL3Q11LZ2B@sheep.berlios.de>
+
+Date:	Friday January 20, 2006 @ 22:06
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv27112/plugins
+
+Added Files:
+	end_optimum_bestworst.py end_optimum_distribution.py 
+	end_optimum_kruskal.py end_optimum_position.py 
+	end_optimum_quantilebox.py end_optimum_successrate.py 
+	iteration_all_quantilebox.py iteration_median_logarithmic.py 
+	iteration_optimum_quantilebox.py plugin_template.py 
+Log Message:
+* plots are now embedded in a plugin system, make it easier to ad new ones
+* add a new demo files, the old one is deprecated
+
+===================================================================
+File: end_optimum_bestworst.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_bestworst.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_distribution.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_kruskal.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_kruskal.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_position.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_position.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_successrate.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_successrate.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_all_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/iteration_all_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_median_logarithmic.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/iteration_median_logarithmic.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_optimum_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/iteration_optimum_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin_template.py	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/plugin_template.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Fri Jan 20 23:06:11 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Fri, 20 Jan 2006 23:06:11 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D15ED3.MailL3F11Q9GJ@sheep.berlios.de>
+
+Date:	Friday January 20, 2006 @ 22:06
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv27112
+
+Modified Files:
+	ometahstats.py ometahtest.py 
+Added Files:
+	demo_simple.py plugin.py 
+Log Message:
+* plots are now embedded in a plugin system, make it easier to ad new ones
+* add a new demo files, the old one is deprecated
+
+===================================================================
+File: demo_simple.py   	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.1	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahstats.py   	Status: Up-to-date
+
+   Working revision:	1.66	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.66	/cvsroot/ometah/ometahlab/ometahstats.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahtest.py    	Status: Up-to-date
+
+   Working revision:	1.51	Fri Jan 20 22:06:10 2006
+   Repository revision:	1.51	/cvsroot/ometah/ometahlab/ometahtest.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Jan 21 18:36:26 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Sat, 21 Jan 2006 18:36:26 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43D2711A.Mail3OF17CQ1X@sheep.berlios.de>
+
+Date:	Saturday January 21, 2006 @ 17:36
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv4682
+
+Added Files:
+	CHANGELOG 
+Log Message:
+* a changelog
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.1	Sat Jan 21 17:36:22 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometah/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Jan 21 18:53:01 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Sat, 21 Jan 2006 18:53:01 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D274FD.MailE701IGC5L@sheep.berlios.de>
+
+Date:	Saturday January 21, 2006 @ 17:53
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv17864
+
+Modified Files:
+	clean.py demo.py demo_simple.py matrix.py ometahstats.py 
+	ometahtest.py plugin.py qparser.py 
+Added Files:
+	AUTHORS COPYING 
+Log Message:
+* licence headers
+* authors & copying files
+
+===================================================================
+File: AUTHORS          	Status: Up-to-date
+
+   Working revision:	1.1	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/AUTHORS,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: COPYING          	Status: Up-to-date
+
+   Working revision:	1.1	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/COPYING,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: clean.py         	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/clean.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: demo.py          	Status: Up-to-date
+
+   Working revision:	1.44	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.44	/cvsroot/ometah/ometahlab/demo.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: demo_simple.py   	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: matrix.py        	Status: Up-to-date
+
+   Working revision:	1.11	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.11	/cvsroot/ometah/ometahlab/matrix.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahstats.py   	Status: Up-to-date
+
+   Working revision:	1.67	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.67	/cvsroot/ometah/ometahlab/ometahstats.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: ometahtest.py    	Status: Up-to-date
+
+   Working revision:	1.52	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.52	/cvsroot/ometah/ometahlab/ometahtest.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: qparser.py       	Status: Up-to-date
+
+   Working revision:	1.23	Sat Jan 21 17:52:57 2006
+   Repository revision:	1.23	/cvsroot/ometah/ometahlab/qparser.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Sat Jan 21 18:53:01 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Sat, 21 Jan 2006 18:53:01 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43D274FD.MailE7Q11I2WD@sheep.berlios.de>
+
+Date:	Saturday January 21, 2006 @ 17:53
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv17864/plugins
+
+Modified Files:
+	end_optimum_bestworst.py end_optimum_distribution.py 
+	end_optimum_kruskal.py end_optimum_position.py 
+	end_optimum_quantilebox.py end_optimum_successrate.py 
+	iteration_all_quantilebox.py iteration_median_logarithmic.py 
+	iteration_optimum_quantilebox.py plugin_template.py 
+Log Message:
+* licence headers
+* authors & copying files
+
+===================================================================
+File: end_optimum_bestworst.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_bestworst.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_distribution.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_kruskal.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_kruskal.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_position.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_position.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: end_optimum_successrate.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_successrate.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_all_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/iteration_all_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_median_logarithmic.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/iteration_median_logarithmic.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: iteration_optimum_quantilebox.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/iteration_optimum_quantilebox.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+===================================================================
+File: plugin_template.py	Status: Up-to-date
+
+   Working revision:	1.2	Sat Jan 21 17:52:58 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/plugin_template.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From dreo at univ-paris12.fr  Mon Jan 23 14:31:42 2006
+From: dreo at univ-paris12.fr (Johann =?ISO-8859-1?Q?Dr=E9o?=)
+Date: Mon, 23 Jan 2006 14:31:42 +0100
+Subject: [Ometah-devel] Plugins oMetahLab
+Message-ID: <1138023103.10261.7.camel@localhost.localdomain>
+
+Salut salut
+
+Question pour Jean-Philippe : quelle est la diff?rence entre les plot 10
+et 11 dans ometahstats ?
+
+J'ai pass? les plots de ometahlab dans un syst?me de plugins.
+Maintenant, pour ajouter un graphique (ou une sortie qqoncque), il
+suffit d'ajouter un fichier dans le r?pertoire plugins/, cela devrait
+rendre plus facile la cr?ation et l'ajout de nouveaux traitements (je
+pense notamment aux tra?age des distributions 2D en positions, demand?es
+par Maurice Clerc).
+
+Sinon, pour ceux qui aurait des id?es pour am?liorer ometah, j'ai mis
+une section pour lister des pistes de recherche, sur le wiki :
+http://ometah.berlios.de/index.php/Open_Metaheuristics:Community_Portal#Ideas
+
+-- 
+Johann
+? Pa???, karun?. ?
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 189 bytes
+Desc: Ceci est une partie de message num?riquement sign?e
+URL: <https://lists.berlios.de/pipermail/ometah-devel/attachments/20060123/3dc9d4cc/attachment.pgp>
+
+From nojhan at berlios.de  Mon Jan 23 15:12:17 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 23 Jan 2006 15:12:17 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D4E441.Mail3JJ11BFD1@sheep.berlios.de>
+
+Date:	Monday January 23, 2006 @ 14:12
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv3185
+
+Modified Files:
+	ometahtest.py 
+Log Message:
+* main parameters can be passed directly within the constructor
+
+===================================================================
+File: ometahtest.py    	Status: Up-to-date
+
+   Working revision:	1.53	Mon Jan 23 14:12:15 2006
+   Repository revision:	1.53	/cvsroot/ometah/ometahlab/ometahtest.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Jan 23 17:21:01 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 23 Jan 2006 17:21:01 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D5026D.Mail4AU19DR7W@sheep.berlios.de>
+
+Date:	Monday January 23, 2006 @ 16:21
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv5529
+
+Modified Files:
+	ometahstats.py 
+Log Message:
+* add file type support
+
+===================================================================
+File: ometahstats.py   	Status: Up-to-date
+
+   Working revision:	1.68	Mon Jan 23 16:21:00 2006
+   Repository revision:	1.68	/cvsroot/ometah/ometahlab/ometahstats.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Jan 23 17:21:21 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 23 Jan 2006 17:21:21 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D50281.Mail4CK1FWQW5@sheep.berlios.de>
+
+Date:	Monday January 23, 2006 @ 16:21
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv5613
+
+Modified Files:
+	plugin.py 
+Log Message:
+* add png support
+
+===================================================================
+File: plugin.py        	Status: Up-to-date
+
+   Working revision:	1.3	Mon Jan 23 16:21:21 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugin.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Jan 23 17:25:08 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 23 Jan 2006 17:25:08 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43D50364.Mail4VY1H5RYD@sheep.berlios.de>
+
+Date:	Monday January 23, 2006 @ 16:25
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv6234/plugins
+
+Added Files:
+	end_optimum_distribution_position2D.py 
+Log Message:
+* a plugin to plot a 2D position distribution of the optimums (with PCA if necessary)
+
+===================================================================
+File: end_optimum_distribution_position2D.py	Status: Up-to-date
+
+   Working revision:	1.1	Mon Jan 23 16:25:08 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution_position2D.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Jan 23 17:25:45 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 23 Jan 2006 17:25:45 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D50389.Mail4ZE1VZHYA@sheep.berlios.de>
+
+Date:	Monday January 23, 2006 @ 16:25
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv6386
+
+Modified Files:
+	demo_simple.py 
+Log Message:
+* add the new plugin and the output type support
+
+===================================================================
+File: demo_simple.py   	Status: Up-to-date
+
+   Working revision:	1.3	Mon Jan 23 16:25:45 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/demo_simple.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Jan 23 17:27:47 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 23 Jan 2006 17:27:47 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D50403.Mail57Z12C8V1@sheep.berlios.de>
+
+Date:	Monday January 23, 2006 @ 16:27
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv6733
+
+Added Files:
+	CHANGELOG 
+Log Message:
+* a change log
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.1	Mon Jan 23 16:27:47 2006
+   Repository revision:	1.1	/cvsroot/ometah/ometahlab/CHANGELOG,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Mon Jan 23 17:28:55 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Mon, 23 Jan 2006 17:28:55 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43D50447.Mail5DQ1NSB9D@sheep.berlios.de>
+
+Date:	Monday January 23, 2006 @ 16:28
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv6860/plugins
+
+Modified Files:
+	end_optimum_position.py 
+Log Message:
+* missing eigen values attribute
+
+===================================================================
+File: end_optimum_position.py	Status: Up-to-date
+
+   Working revision:	1.3	Mon Jan 23 16:28:55 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometahlab/plugins/end_optimum_position.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at gmail.com  Mon Jan 23 18:05:22 2006
+From: nojhan at gmail.com (nojhan)
+Date: Mon, 23 Jan 2006 18:05:22 +0100
+Subject: [Ometah-devel] Plugins oMetahLab
+In-Reply-To: <1138023103.10261.7.camel@localhost.localdomain>
+References: <1138023103.10261.7.camel@localhost.localdomain>
+Message-ID: <1138035922.10261.14.camel@localhost.localdomain>
+
+Le lundi 23 janvier 2006 ? 14:31 +0100, Johann Dr?o a ?crit :
+> J'ai pass? les plots de ometahlab dans un syst?me de plugins.
+> Maintenant, pour ajouter un graphique (ou une sortie qqoncque), il
+> suffit d'ajouter un fichier dans le r?pertoire plugins/, cela devrait
+> rendre plus facile la cr?ation et l'ajout de nouveaux traitements (je
+> pense notamment aux tra?age des distributions 2D en positions, demand?es
+> par Maurice Clerc).
+
+Finalement je l'ai fait pour l'exemple, voir le r?pertoire plugins et
+demo_simple.py.
+
+-- 
+Johann
+? Pa???, karun?. ?
+
+
+
+From jeanphilippe.aumasson at gmail.com  Mon Jan 23 20:56:43 2006
+From: jeanphilippe.aumasson at gmail.com (Jean-Philippe Aumasson)
+Date: Mon, 23 Jan 2006 20:56:43 +0100
+Subject: [Ometah-devel] Plugins oMetahLab
+In-Reply-To: <1138023103.10261.7.camel@localhost.localdomain>
+References: <1138023103.10261.7.camel@localhost.localdomain>
+Message-ID: <a235f0e70601231156q3af992d3iec86a98b4799d177@mail.gmail.com>
+
+On 1/23/06, Johann Dr?o <dreo at univ-paris12.fr> wrote
+>
+> Question pour Jean-Philippe : quelle est la diff?rence entre les plot 10
+> et 11 dans ometahstats ?
+
+L'unique diff?rence, c'est que plot_10 affiche l'erreur m?diane sur
+tous les points calcul?s, et plot_11 seulement sur les optima ;
+for list in self.__pointsIter: VS for list in self.__optimaIter:
+
+Cel? dit garder les deux n'est peut-?tre pas indispensable...il serait
+peut-?tre judicieux de ne consid?rer que les optima, on y gagnerait en
+temps de calcul en plus (m?me si je fais moins attention ? cet aspect,
+maintenant que je suis pass? du 800Mhz au 3Ghz ;) ).
+
+>
+> J'ai pass? les plots de ometahlab dans un syst?me de plugins.
+> Maintenant, pour ajouter un graphique (ou une sortie qqoncque), il
+> suffit d'ajouter un fichier dans le r?pertoire plugins/,
+
+Ah bonne id?e, 'vais regarder ?a... t'as eu du feedback d'utilisateurs sinon ?
+
+> cela devrait
+> rendre plus facile la cr?ation et l'ajout de nouveaux traitements (je
+> pense notamment aux tra?age des distributions 2D en positions, demand?es
+> par Maurice Clerc).
+>
+> Sinon, pour ceux qui aurait des id?es pour am?liorer ometah, j'ai mis
+> une section pour lister des pistes de recherche, sur le wiki :
+> http://ometah.berlios.de/index.php/Open_Metaheuristics:Community_Portal#Ideas
+>
+> --
+> Johann
+> ? Pa???, karun?. ?
+>
+>
+> -----BEGIN PGP SIGNATURE-----
+> Version: GnuPG v1.4.1 (GNU/Linux)
+>
+> iD8DBQBD1Nq+mdd4Q6Ml/dURAnHFAJ9HT7PFwFzUaTpOXyy1xetuYYCFdwCdEoRa
+> U9uIiZGh0R+Wnvu5f+zkHpY=
+> =vdyE
+> -----END PGP SIGNATURE-----
+>
+>
+>
+
+
+From nojhan at free.fr  Tue Jan 24 21:12:23 2006
+From: nojhan at free.fr (nojhan)
+Date: Tue, 24 Jan 2006 21:12:23 +0100
+Subject: [Ometah-devel] Plugins oMetahLab
+In-Reply-To: <a235f0e70601231156q3af992d3iec86a98b4799d177@mail.gmail.com>
+References: <1138023103.10261.7.camel@localhost.localdomain>
+	 <a235f0e70601231156q3af992d3iec86a98b4799d177@mail.gmail.com>
+Message-ID: <1138133543.11401.0.camel@localhost.localdomain>
+
+J'oubliais : 
+* je n'ai aucune archive des xml sortis, uniquement la s?rialisation,
+est-ce normal ou est-ce que ?a coince qqpart ?
+* est-ce que tu as gard? qqpart le code pour parser le xml avec dom ?
+
+-- 
+Johann
+? Pa???, karun?. ?
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 189 bytes
+Desc: Ceci est une partie de message num?riquement sign?e
+URL: <https://lists.berlios.de/pipermail/ometah-devel/attachments/20060124/9510c825/attachment.pgp>
+
+From nojhan at free.fr  Tue Jan 24 21:12:41 2006
+From: nojhan at free.fr (nojhan)
+Date: Tue, 24 Jan 2006 21:12:41 +0100
+Subject: [Ometah-devel] Plugins oMetahLab
+In-Reply-To: <a235f0e70601231156q3af992d3iec86a98b4799d177@mail.gmail.com>
+References: <1138023103.10261.7.camel@localhost.localdomain>
+	 <a235f0e70601231156q3af992d3iec86a98b4799d177@mail.gmail.com>
+Message-ID: <1138133561.11401.2.camel@localhost.localdomain>
+
+Le lundi 23 janvier 2006 ? 20:56 +0100, Jean-Philippe Aumasson a ?crit :
+> Cel? dit garder les deux n'est peut-?tre pas indispensable...il serait
+> peut-?tre judicieux de ne consid?rer que les optima, on y gagnerait en
+> temps de calcul en plus (m?me si je fais moins attention ? cet aspect,
+> maintenant que je suis pass? du 800Mhz au 3Ghz ;) ).
+
+Ok, en fait si, je vais garder les deux. Maintenant que c'est pluginis?,
+on peut facilement choisir quel graphique on lance ou pas, ce qui limite
+le probl?me du temps de calcul.
+
+
+> Ah bonne id?e, 'vais regarder ?a... t'as eu du feedback d'utilisateurs sinon ?
+
+Il y avait un gars d'une entreprise qui voulait utiliser oMetah, mais
+finalement il ne va pas le faire car la LGPL ne lui convenait pas, il
+aurait pr?f?r? une licence type BSD pour pouvoir int?grer le code sans
+contrepartie.
+
+Je bosse ?galement sur l'int?gration d'un probl?me avec un th?sard du
+labo qui bosse chez Sagem. L? ?a avance bien et on va passer aux tests
+(avec ometalab), ce qui donnera l'occasion de voir si ?a passe le cap de
+la production :-)
+
+Je n'ai donc pas vraiment de feedback, et, maintenant que tu es occup?
+ailleurs, je bosse seul. J'esp?re que la conf?rence sur ometah (le 6
+f?vrier) apportera des gens interess?s... on verra bien.
+
+-- 
+Johann
+? Pa???, karun?. ?
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 189 bytes
+Desc: Ceci est une partie de message num?riquement sign?e
+URL: <https://lists.berlios.de/pipermail/ometah-devel/attachments/20060124/c6ef582d/attachment.pgp>
+
+From nojhan at berlios.de  Tue Jan 24 22:11:07 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 24 Jan 2006 22:11:07 +0100
+Subject: [Ometah-devel] CVS update: ometahlab/plugins
+Message-ID: <43D697EB.Mail3II1LNCY1@sheep.berlios.de>
+
+Date:	Tuesday January 24, 2006 @ 21:11
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab/plugins
+In directory sheep:/tmp/cvs-serv4529
+
+Modified Files:
+	end_optimum_distribution_position2D.py 
+Log Message:
+* new magic formula
+===================================================================
+File: end_optimum_distribution_position2D.py	Status: Up-to-date
+
+   Working revision:	1.2	Tue Jan 24 21:11:07 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometahlab/plugins/end_optimum_distribution_position2D.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Tue Jan 24 22:11:55 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 24 Jan 2006 22:11:55 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D6981B.Mail3KP116GCP@sheep.berlios.de>
+
+Date:	Tuesday January 24, 2006 @ 21:11
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv4610
+
+Modified Files:
+	ometahtest.py 
+Log Message:
+* replace the progress bar by a simple counter
+* some more logs
+===================================================================
+File: ometahtest.py    	Status: Up-to-date
+
+   Working revision:	1.54	Tue Jan 24 21:11:55 2006
+   Repository revision:	1.54	/cvsroot/ometah/ometahlab/ometahtest.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Tue Jan 24 22:37:14 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 24 Jan 2006 22:37:14 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D69E0A.Mail5S01X92O7@sheep.berlios.de>
+
+Date:	Tuesday January 24, 2006 @ 21:37
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv7416
+
+Modified Files:
+	ometahtest.py 
+Log Message:
+* XML archiving turn on by default
+
+===================================================================
+File: ometahtest.py    	Status: Up-to-date
+
+   Working revision:	1.55	Tue Jan 24 21:37:13 2006
+   Repository revision:	1.55	/cvsroot/ometah/ometahlab/ometahtest.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Tue Jan 24 22:58:42 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 24 Jan 2006 22:58:42 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D6A312.Mail7EO110UYJ@sheep.berlios.de>
+
+Date:	Tuesday January 24, 2006 @ 21:58
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv9514
+
+Modified Files:
+	ometahtest.py 
+Log Message:
+* bugfix : correct path for the xml archiving
+
+===================================================================
+File: ometahtest.py    	Status: Up-to-date
+
+   Working revision:	1.56	Tue Jan 24 21:58:42 2006
+   Repository revision:	1.56	/cvsroot/ometah/ometahlab/ometahtest.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From jpau at berlios.de  Tue Jan 24 23:07:57 2006
+From: jpau at berlios.de (jpau at BerliOS)
+Date: Tue, 24 Jan 2006 23:07:57 +0100
+Subject: [Ometah-devel] CVS update: ometahlab
+Message-ID: <43D6A53D.Mail81M11SF9J@sheep.berlios.de>
+
+Date:	Tuesday January 24, 2006 @ 22:07
+Author:	jpau
+
+Update of /cvsroot/ometah/ometahlab
+In directory sheep:/tmp/cvs-serv10226
+
+Modified Files:
+	demo.py 
+Log Message:
+* replaced ometahstat.stat by ometahstat.process
+
+
+===================================================================
+File: demo.py          	Status: Up-to-date
+
+   Working revision:	1.45	Tue Jan 24 22:07:57 2006
+   Repository revision:	1.45	/cvsroot/ometah/ometahlab/demo.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
+From nojhan at berlios.de  Tue Jan 31 12:49:38 2006
+From: nojhan at berlios.de (nojhan at BerliOS)
+Date: Tue, 31 Jan 2006 12:49:38 +0100
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <43DF4ED2.MailJJR117MOM@sheep.berlios.de>
+
+Date:	Tuesday January 31, 2006 @ 11:49
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv24977
+
+Modified Files:
+	SConstruct compilation_tuning.py 
+Log Message:
+* faster compilation flags (thanks to David Monniaux)
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.30	Tue Jan 31 11:49:28 2006
+   Repository revision:	1.30	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_2_2                  	(revision: 1.27)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: compilation_tuning.py	Status: Up-to-date
+
+   Working revision:	1.2	Tue Jan 31 11:49:28 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/compilation_tuning.py,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+

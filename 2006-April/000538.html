@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Ometah-devel] [Bug #6732] Problem for demo_simple.py if dimension &gt;2
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/ometah-devel/2006-April/index.html" >
+   <LINK REL="made" HREF="mailto:ometah-devel%40lists.berlios.de?Subject=Re%3A%20%5BOmetah-devel%5D%20%5BBug%20%236732%5D%20Problem%20for%20demo_simple.py%20if%20dimension%20%3E2&In-Reply-To=%3C200604130831.k3D8VcVD017860%40unicorn.berlios.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000537.html">
+   <LINK REL="Next"  HREF="000539.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Ometah-devel] [Bug #6732] Problem for demo_simple.py if dimension &gt;2</H1>
+    <B>admin at berlios.de</B> 
+    <A HREF="mailto:ometah-devel%40lists.berlios.de?Subject=Re%3A%20%5BOmetah-devel%5D%20%5BBug%20%236732%5D%20Problem%20for%20demo_simple.py%20if%20dimension%20%3E2&In-Reply-To=%3C200604130831.k3D8VcVD017860%40unicorn.berlios.de%3E"
+       TITLE="[Ometah-devel] [Bug #6732] Problem for demo_simple.py if dimension &gt;2">admin at berlios.de
+       </A><BR>
+    <I>Thu Apr 13 10:31:38 CEST 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000537.html">[Ometah-devel] [Bug #7135] Put a message when ometahlab is cleanly stopping
+</A></li>
+        <LI>Next message: <A HREF="000539.html">[Ometah-devel] [Task #2915] Better management of headers
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#538">[ date ]</a>
+              <a href="thread.html#538">[ thread ]</a>
+              <a href="subject.html#538">[ subject ]</a>
+              <a href="author.html#538">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Bug #6732, was updated on 2006-Mar-09 10:30
+Here is a current snapshot of the bug.
+
+Project: Open Metaheuristic
+Category: None
+Status: Open
+Resolution: None
+Bug Group: None
+Priority: 5
+Submitted by: cooren
+Assigned to : none
+Summary: Problem for demo_simple.py if dimension &gt;2
+
+Details: I try to execute demo_simple.py with a dimension &gt;2 for problems. So, I have just modified the original file by replacing:
+
+u.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 2 -m CEDA')
+by
+u.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 3 -m CEDA')
+
+and 
+
+v.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 2 -m RA')
+by
+v.setArgs('-s 10 -i 10 -e 100 -p Rosenbrock -d 3 -m RA')
+
+The program is executing well until &quot;Non-parametric test on optima error over all tests:  1.90734863281e-06&quot;
+At this moment, the program doesn't stop but it runs without end. Nothing is written after &quot;Non parametric...&quot;
+I've tried for other dimensions and the problem is the same.
+
+Follow-Ups:
+
+Date: 2006-Apr-13 10:31
+By: nojhan
+
+Comment:
+The problems comes from the itsRosenbrock function, that seems to be not cleanly implemented. It tries to access the last+1 item of the point solution vector.
+-------------------------------------------------------
+
+For detailed info, follow this link:
+<A HREF="http://developer.berlios.de/bugs/?func=detailbug&amp;bug_id=6732&amp;group_id=3955">http://developer.berlios.de/bugs/?func=detailbug&amp;bug_id=6732&amp;group_id=3955</A>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000537.html">[Ometah-devel] [Bug #7135] Put a message when ometahlab is cleanly stopping
+</A></li>
+	<LI>Next message: <A HREF="000539.html">[Ometah-devel] [Task #2915] Better management of headers
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#538">[ date ]</a>
+              <a href="thread.html#538">[ thread ]</a>
+              <a href="subject.html#538">[ subject ]</a>
+              <a href="author.html#538">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/ometah-devel">More information about the Ometah-devel
+mailing list</a><br>
+</body></html>

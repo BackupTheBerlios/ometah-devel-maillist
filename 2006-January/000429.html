@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Ometah-devel] Plugins oMetahLab
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/ometah-devel/2006-January/index.html" >
+   <LINK REL="made" HREF="mailto:ometah-devel%40lists.berlios.de?Subject=Re%3A%20%5BOmetah-devel%5D%20Plugins%20oMetahLab&In-Reply-To=%3Ca235f0e70601231156q3af992d3iec86a98b4799d177%40mail.gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000428.html">
+   <LINK REL="Next"  HREF="000430.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Ometah-devel] Plugins oMetahLab</H1>
+    <B>Jean-Philippe Aumasson</B> 
+    <A HREF="mailto:ometah-devel%40lists.berlios.de?Subject=Re%3A%20%5BOmetah-devel%5D%20Plugins%20oMetahLab&In-Reply-To=%3Ca235f0e70601231156q3af992d3iec86a98b4799d177%40mail.gmail.com%3E"
+       TITLE="[Ometah-devel] Plugins oMetahLab">jeanphilippe.aumasson at gmail.com
+       </A><BR>
+    <I>Mon Jan 23 20:56:43 CET 2006</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000428.html">[Ometah-devel] Plugins oMetahLab
+</A></li>
+        <LI>Next message: <A HREF="000430.html">[Ometah-devel] Plugins oMetahLab
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#429">[ date ]</a>
+              <a href="thread.html#429">[ thread ]</a>
+              <a href="subject.html#429">[ subject ]</a>
+              <a href="author.html#429">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>On 1/23/06, Johann Dr&#233;o &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/ometah-devel">dreo at univ-paris12.fr</A>&gt; wrote
+&gt;<i>
+</I>&gt;<i> Question pour Jean-Philippe : quelle est la diff&#233;rence entre les plot 10
+</I>&gt;<i> et 11 dans ometahstats ?
+</I>
+L'unique diff&#233;rence, c'est que plot_10 affiche l'erreur m&#233;diane sur
+tous les points calcul&#233;s, et plot_11 seulement sur les optima ;
+for list in self.__pointsIter: VS for list in self.__optimaIter:
+
+Cel&#224; dit garder les deux n'est peut-&#234;tre pas indispensable...il serait
+peut-&#234;tre judicieux de ne consid&#233;rer que les optima, on y gagnerait en
+temps de calcul en plus (m&#234;me si je fais moins attention &#224; cet aspect,
+maintenant que je suis pass&#233; du 800Mhz au 3Ghz ;) ).
+
+&gt;<i>
+</I>&gt;<i> J'ai pass&#233; les plots de ometahlab dans un syst&#232;me de plugins.
+</I>&gt;<i> Maintenant, pour ajouter un graphique (ou une sortie qqoncque), il
+</I>&gt;<i> suffit d'ajouter un fichier dans le r&#233;pertoire plugins/,
+</I>
+Ah bonne id&#233;e, 'vais regarder &#231;a... t'as eu du feedback d'utilisateurs sinon ?
+
+&gt;<i> cela devrait
+</I>&gt;<i> rendre plus facile la cr&#233;ation et l'ajout de nouveaux traitements (je
+</I>&gt;<i> pense notamment aux tra&#231;age des distributions 2D en positions, demand&#233;es
+</I>&gt;<i> par Maurice Clerc).
+</I>&gt;<i>
+</I>&gt;<i> Sinon, pour ceux qui aurait des id&#233;es pour am&#233;liorer ometah, j'ai mis
+</I>&gt;<i> une section pour lister des pistes de recherche, sur le wiki :
+</I>&gt;<i> <A HREF="http://ometah.berlios.de/index.php/Open_Metaheuristics:Community_Portal#Ideas">http://ometah.berlios.de/index.php/Open_Metaheuristics:Community_Portal#Ideas</A>
+</I>&gt;<i>
+</I>&gt;<i> --
+</I>&gt;<i> Johann
+</I>&gt;<i> &#171; Pa&#241;&#241;&#226;, karun&#226;. &#187;
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> -----BEGIN PGP SIGNATURE-----
+</I>&gt;<i> Version: GnuPG v1.4.1 (GNU/Linux)
+</I>&gt;<i>
+</I>&gt;<i> iD8DBQBD1Nq+mdd4Q6Ml/dURAnHFAJ9HT7PFwFzUaTpOXyy1xetuYYCFdwCdEoRa
+</I>&gt;<i> U9uIiZGh0R+Wnvu5f+zkHpY=
+</I>&gt;<i> =vdyE
+</I>&gt;<i> -----END PGP SIGNATURE-----
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000428.html">[Ometah-devel] Plugins oMetahLab
+</A></li>
+	<LI>Next message: <A HREF="000430.html">[Ometah-devel] Plugins oMetahLab
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#429">[ date ]</a>
+              <a href="thread.html#429">[ thread ]</a>
+              <a href="subject.html#429">[ subject ]</a>
+              <a href="author.html#429">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/ometah-devel">More information about the Ometah-devel
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,475 @@
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:33 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:33 +0200
+Subject: [Ometah-devel] CVS update: ometah
+Message-ID: <45032199.MailF5K11WNX1@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah
+In directory sheep:/tmp/cvs-serv19516
+
+Modified Files:
+	CHANGELOG SConstruct makefile ometah.kdevelop.pcs 
+	ometah.kdevses 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: CHANGELOG        	Status: Up-to-date
+
+   Working revision:	1.18	Sat Sep  9 20:18:20 2006
+   Repository revision:	1.18	/cvsroot/ometah/ometah/CHANGELOG,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.17)
+	V_0_2_4                  	(revision: 1.5)
+
+===================================================================
+File: no file SConstruct		Status: Needs Checkout
+
+   Working revision:	1.41	Sat Sep  9 20:18:31 2006
+   Repository revision:	1.41	/cvsroot/ometah/ometah/SConstruct,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.38)
+	V_0_2_4                  	(revision: 1.34)
+	V_0_2_2                  	(revision: 1.27)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: makefile         	Status: Up-to-date
+
+   Working revision:	1.2	Sat Sep  9 20:18:20 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/makefile,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.1)
+
+===================================================================
+File: ometah.kdevelop.pcs	Status: Up-to-date
+
+   Working revision:	1.3	Sat Sep  9 20:18:26 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometah/ometah.kdevelop.pcs,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.1)
+
+===================================================================
+File: ometah.kdevses   	Status: Up-to-date
+
+   Working revision:	1.2	Sat Sep  9 20:18:26 2006
+   Repository revision:	1.2	/cvsroot/ometah/ometah/ometah.kdevses,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.1)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:33 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:33 +0200
+Subject: [Ometah-devel] CVS update: ometah/common
+Message-ID: <45032199.MailF5T118G53@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/common
+In directory sheep:/tmp/cvs-serv19516/common
+
+Modified Files:
+	itsPoint.cpp itsPoint.hpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsPoint.cpp		Status: Needs Checkout
+
+   Working revision:	1.12	Sat Sep  9 20:18:33 2006
+   Repository revision:	1.12	/cvsroot/ometah/ometah/common/itsPoint.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.11)
+	V_0_2_4                  	(revision: 1.8)
+	V_0_2_2                  	(revision: 1.5)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsPoint.hpp		Status: Needs Checkout
+
+   Working revision:	1.11	Sat Sep  9 20:18:33 2006
+   Repository revision:	1.11	/cvsroot/ometah/ometah/common/itsPoint.hpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.10)
+	V_0_2_4                  	(revision: 1.7)
+	V_0_2_2                  	(revision: 1.4)
+	V_0_1_1                  	(revision: 1.1.1.1)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:34 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:34 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/antcolony
+Message-ID: <4503219A.MailF6H1146RE@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/antcolony
+In directory sheep:/tmp/cvs-serv19516/metaheuristic/antcolony
+
+Modified Files:
+	itsHybridContinuousInteractingAntColony.cpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsHybridContinuousInteractingAntColony.cpp		Status: Needs Checkout
+
+   Working revision:	1.6	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.6	/cvsroot/ometah/ometah/metaheuristic/antcolony/itsHybridContinuousInteractingAntColony.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.5)
+	V_0_2_4                  	(revision: 1.3)
+	V_0_2_2                  	(revision: 1.2)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:34 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:34 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic
+Message-ID: <4503219A.MailF6611SR1A@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic
+In directory sheep:/tmp/cvs-serv19516/metaheuristic
+
+Modified Files:
+	itsMetaheuristic.cpp itsMetaheuristic.hpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsMetaheuristic.cpp		Status: Needs Checkout
+
+   Working revision:	1.31	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.31	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.30)
+	V_0_2_4                  	(revision: 1.25)
+	V_0_2_2                  	(revision: 1.23)
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file itsMetaheuristic.hpp		Status: Needs Checkout
+
+   Working revision:	1.25	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.25	/cvsroot/ometah/ometah/metaheuristic/itsMetaheuristic.hpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.24)
+	V_0_2_4                  	(revision: 1.20)
+	V_0_2_2                  	(revision: 1.17)
+	V_0_1_1                  	(revision: 1.3)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:34 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:34 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/annealing
+Message-ID: <4503219A.MailF6C13AL3K@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/annealing
+In directory sheep:/tmp/cvs-serv19516/metaheuristic/annealing
+
+Modified Files:
+	itsSimulatedAnnealing.cpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsSimulatedAnnealing.cpp		Status: Needs Checkout
+
+   Working revision:	1.3	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/annealing/itsSimulatedAnnealing.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.2)
+	V_0_2_4                  	(revision: 1.1)
+	V_0_2_2                  	(revision: 1.1)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:34 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:34 +0200
+Subject: [Ometah-devel] CVS update: ometah/interface
+Message-ID: <4503219A.MailF6011L33A@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/interface
+In directory sheep:/tmp/cvs-serv19516/interface
+
+Modified Files:
+	ometah.cpp ometah.hpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file ometah.cpp		Status: Needs Checkout
+
+   Working revision:	1.42	Sat Sep  9 20:18:33 2006
+   Repository revision:	1.42	/cvsroot/ometah/ometah/interface/ometah.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.36)
+	V_0_2_4                  	(revision: 1.25)
+	V_0_2_2                  	(revision: 1.20)
+	V_0_1_1                  	(revision: 1.4)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+===================================================================
+File: no file ometah.hpp		Status: Needs Checkout
+
+   Working revision:	1.26	Sat Sep  9 20:18:33 2006
+   Repository revision:	1.26	/cvsroot/ometah/ometah/interface/ometah.hpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.25)
+	V_0_2_4                  	(revision: 1.19)
+	V_0_2_2                  	(revision: 1.15)
+	V_0_1_1                  	(revision: 1.2)
+	start                    	(revision: 1.1.1.1)
+	vendor                   	(branch: 1.1.1)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:35 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:35 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/random
+Message-ID: <4503219B.MailF7611MH6O@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/random
+In directory sheep:/tmp/cvs-serv19516/metaheuristic/random
+
+Modified Files:
+	itsRandom.cpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsRandom.cpp		Status: Needs Checkout
+
+   Working revision:	1.6	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.6	/cvsroot/ometah/ometah/metaheuristic/random/itsRandom.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.5)
+	V_0_2_4                  	(revision: 1.4)
+	V_0_2_2                  	(revision: 1.4)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:34 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:34 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/neldermead
+Message-ID: <4503219A.MailF7111QZ27@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/neldermead
+In directory sheep:/tmp/cvs-serv19516/metaheuristic/neldermead
+
+Modified Files:
+	itsNelderMead.cpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsNelderMead.cpp		Status: Needs Checkout
+
+   Working revision:	1.16	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.16	/cvsroot/ometah/ometah/metaheuristic/neldermead/itsNelderMead.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.15)
+	V_0_2_4                  	(revision: 1.13)
+	V_0_2_2                  	(revision: 1.12)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:35 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:35 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/sampling
+Message-ID: <4503219B.MailF7C11RZNY@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/sampling
+In directory sheep:/tmp/cvs-serv19516/metaheuristic/sampling
+
+Modified Files:
+	itsGridSampling.cpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsGridSampling.cpp		Status: Needs Checkout
+
+   Working revision:	1.15	Sat Sep  9 20:18:35 2006
+   Repository revision:	1.15	/cvsroot/ometah/ometah/metaheuristic/sampling/itsGridSampling.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.14)
+	V_0_2_4                  	(revision: 1.12)
+	V_0_2_2                  	(revision: 1.12)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:34 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:34 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/estimation
+Message-ID: <4503219A.MailF6N171DYW@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/estimation
+In directory sheep:/tmp/cvs-serv19516/metaheuristic/estimation
+
+Modified Files:
+	itsEstimationOfDistribution.cpp 
+	itsHybridEstimationOfDistribution.cpp 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsEstimationOfDistribution.cpp		Status: Needs Checkout
+
+   Working revision:	1.12	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.12	/cvsroot/ometah/ometah/metaheuristic/estimation/itsEstimationOfDistribution.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.11)
+	V_0_2_4                  	(revision: 1.9)
+	V_0_2_2                  	(revision: 1.7)
+
+===================================================================
+File: no file itsHybridEstimationOfDistribution.cpp		Status: Needs Checkout
+
+   Working revision:	1.5	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.5	/cvsroot/ometah/ometah/metaheuristic/estimation/itsHybridEstimationOfDistribution.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.4)
+	V_0_2_4                  	(revision: 1.3)
+	V_0_2_2                  	(revision: 1.3)
+
+
+
+From nojhan at mail.berlios.de  Sat Sep  9 22:18:34 2006
+From: nojhan at mail.berlios.de (nojhan at BerliOS)
+Date: Sat, 09 Sep 2006 22:18:34 +0200
+Subject: [Ometah-devel] CVS update: ometah/metaheuristic/genetic
+Message-ID: <4503219A.MailF6T11VMYN@sheep.berlios.de>
+
+
+Date:	Saturday September 9, 2006 @ 20:18
+Author:	nojhan
+
+Update of /cvsroot/ometah/ometah/metaheuristic/genetic
+In directory sheep:/tmp/cvs-serv19516/metaheuristic/genetic
+
+Modified Files:
+	itsEOInterface.hpp itsJpGenetic.cpp itsSimpleGenetic.cpp 
+	test_eo.cc 
+Log Message:
+* private metaheuristic interface
+
+===================================================================
+File: no file itsEOInterface.hpp		Status: Needs Checkout
+
+   Working revision:	1.3	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.3	/cvsroot/ometah/ometah/metaheuristic/genetic/itsEOInterface.hpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.2)
+
+===================================================================
+File: no file itsJpGenetic.cpp		Status: Needs Checkout
+
+   Working revision:	1.11	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.11	/cvsroot/ometah/ometah/metaheuristic/genetic/itsJpGenetic.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.10)
+	V_0_2_4                  	(revision: 1.8)
+	V_0_2_2                  	(revision: 1.8)
+
+===================================================================
+File: no file itsSimpleGenetic.cpp		Status: Needs Checkout
+
+   Working revision:	1.7	Sat Sep  9 20:18:34 2006
+   Repository revision:	1.7	/cvsroot/ometah/ometah/metaheuristic/genetic/itsSimpleGenetic.cpp,v
+
+   Existing Tags:
+	V_0_3                    	(revision: 1.6)
+	V_0_2_4                  	(revision: 1.4)
+	V_0_2_2                  	(revision: 1.4)
+
+===================================================================
+File: test_eo.cc       	Status: Up-to-date
+
+   Working revision:	1.4	Sat Sep  9 20:18:29 2006
+   Repository revision:	1.4	/cvsroot/ometah/ometah/metaheuristic/genetic/test_eo.cc,v
+
+   Existing Tags:
+	No Tags Exist
+
+
+
